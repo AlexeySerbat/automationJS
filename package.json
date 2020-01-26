@@ -1,0 +1,28 @@
+{
+  "name": "protractor-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Actions.js",
+  "dependencies": {
+    "@types/node": "^12.12.14",
+    "aurelia": "^0.5.0",
+    "jshint": "^2.10.3",
+    "protractor": "^5.4.2",
+    "protractor-helpers": "^1.1.697",
+    "protractor-test-helpers": "^0.0.1",
+    "typescript": "^3.7.3",
+    "xmlbuilder": "^13.0.2"
+  },
+  "devDependencies": {
+    "cypress": "^3.8.0",
+    "jasmine-data-provider": "^2.2.0"
+  },
+  "scripts": {
+    "wu": "./node_modules/.bin/webdriver-manager update",
+    "ws": "./node_modules/.bin/webdriver-manager start",
+    "protractor": "./node_modules/.bin/protractor protractor.conf.js",
+    "start": "npm run wedriver-update && npm run webdriver-start && npm run protractor"
+  },
+  "author": "",
+  "license": "ISC"
+}
