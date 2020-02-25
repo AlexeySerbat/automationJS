@@ -15,11 +15,12 @@ function Singleton() {
 }
 const webDriver = new Singleton();
 
-describe('Checkout Google.com', function () {
-  it('Search on Google', async function() {
-    webDriver.driver.manage().window().maximize();
+describe('BBC test',  function () {
+     webDriver.driver.manage().window().maximize();
+     webDriver.driver.manage().setTimeouts({pageLoad:20000});
+  it('BBC test', async function() {
+
     await webDriver.driver.get('https://bbc.com');
-    await webDriver.driver.wait(until.elementLocated(By.id('orb-search-q')));
     const searchFieldPresence = await webDriver.driver.findElement(By.id('orb-search-q')).isDisplayed();
     const searchFieldEnabled = await webDriver.driver.findElement(By.id('orb-search-q')).isEnabled();
     if(searchFieldPresence === true && searchFieldEnabled === true) {
@@ -27,7 +28,7 @@ describe('Checkout Google.com', function () {
       await webDriver.driver.findElement(By.id('orb-search-q')).sendKeys('Belarus');
     }
     await webDriver.driver.findElement(By.xpath('//nav[1]/div[1]/ul[1]/li[2]')).click();
-    await webDriver.driver.wait(until.elementLocated(By.xpath('//div[@class=\'orb-nav-section orb-nav-blocks\']')));
+    await webDriver.driver.wait(until.elementLocated(By.xpath('//div[@class=\'orb-nav-section orb-nav-blocks\']')), 5000);
   });
 
   after(() => webDriver.driver && webDriver.driver.quit());
