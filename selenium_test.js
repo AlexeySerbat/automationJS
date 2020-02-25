@@ -19,6 +19,7 @@ describe('Checkout Google.com', function () {
   it('Search on Google', async function() {
     webDriver.driver.manage().window().maximize();
     await webDriver.driver.get('https://bbc.com');
+    await webDriver.driver.wait(until.elementLocated(By.id('orb-search-q')));
     const searchFieldPresence = await webDriver.driver.findElement(By.id('orb-search-q')).isDisplayed();
     const searchFieldEnabled = await webDriver.driver.findElement(By.id('orb-search-q')).isEnabled();
     if(searchFieldPresence === true && searchFieldEnabled === true) {
