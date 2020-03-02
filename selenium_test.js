@@ -13,24 +13,38 @@ function Singleton() {
   Singleton.instance = this;
   this.driver = newDriver()
 }
-const webDriver = new Singleton();
+const browser = new Singleton();
+
+function waitForElementIsEnabledAndDisplayed(element) {
+  try {
+    for (let i = 1; i < 10; i++) {
+      if (!element.isEnabled() && !element.isDisplayed()) {
+        browser.driver.sleep(1000);
+      }
+    }
+    if (element.isEnabled() && element.isDisplayed()) {
+      console.log('Element is Enabled and Displayed');
+    }
+  } catch (e) {
+    if (e) {
+      throw "element is not Enabled and Displayed";
+    }
+  }
+}
 
 describe('BBC test',  function () {
-     webDriver.driver.manage().window().maximize();
-     webDriver.driver.manage().setTimeouts({pageLoad:20000});
+    browser.driver.manage().window().maximize();
+    browser.driver.manage().setTimeouts({pageLoad:20000});
   it('BBC test', async function() {
+    await browser.driver.get('https://bbc.com');
+    const searchField = await browser.driver.findElement(By.id('orb-search-q'))
+    waitForElementIsEnabledAndDisplayed(searchField);
+    await browser.driver.findElement(By.id('orb-search-q')).sendKeys('Belarus');
+    await browser.driver.findElement(By.xpath('//nav[1]/div[1]/ul[1]/li[2]')).click();
+    await browser.driver.wait(until.elementLocated(By.xpath('//div[@class=\'orb-nav-section orb-nav-blocks\']')), 5000);
 
-    await webDriver.driver.get('https://bbc.com');
-    const searchFieldPresence = await webDriver.driver.findElement(By.id('orb-search-q')).isDisplayed();
-    const searchFieldEnabled = await webDriver.driver.findElement(By.id('orb-search-q')).isEnabled();
-    if(searchFieldPresence === true && searchFieldEnabled === true) {
-      console.log('Element is Displayed and Enabled');
-      await webDriver.driver.findElement(By.id('orb-search-q')).sendKeys('Belarus');
-    }
-    await webDriver.driver.findElement(By.xpath('//nav[1]/div[1]/ul[1]/li[2]')).click();
-    await webDriver.driver.wait(until.elementLocated(By.xpath('//div[@class=\'orb-nav-section orb-nav-blocks\']')), 5000);
   });
 
-  after(() => webDriver.driver && webDriver.driver.quit());
+  after(() => browser.driver && browser.driver.quit());
 });
 
