@@ -15,19 +15,36 @@ function Singleton() {
 }
 const browser = new Singleton();
 
-function waitForElementIsEnabledAndDisplayed(element) {
+function waitForElementIsEnabled(element) {
   try {
     for (let i = 1; i < 10; i++) {
-      if (!element.isEnabled() && !element.isDisplayed()) {
+      if (!element.isEnabled()) {
         browser.driver.sleep(1000);
       }
     }
-    if (element.isEnabled() && element.isDisplayed()) {
-      console.log('Element is Enabled and Displayed');
+    if (element.isEnabled()) {
+      console.log('Element is Enabled');
     }
   } catch (e) {
     if (e) {
-      throw "element is not Enabled and Displayed";
+      throw "element is not Enabled";
+    }
+  }
+}
+
+function waitForElementIsDisplayed(element) {
+  try {
+    for (let i = 1; i < 10; i++) {
+      if (!element.isDisplayed()) {
+        browser.driver.sleep(1000);
+      }
+    }
+    if (element.isDisplayed()) {
+      console.log('Element is Displayed');
+    }
+  } catch (e) {
+    if (e) {
+      throw "element is not Displayed";
     }
   }
 }
@@ -38,7 +55,8 @@ describe('BBC test',  function () {
   it('BBC test', async function() {
     await browser.driver.get('https://bbc.com');
     const searchField = await browser.driver.findElement(By.id('orb-search-q'))
-    waitForElementIsEnabledAndDisplayed(searchField);
+    waitForElementIsEnabled(searchField);
+    waitForElementIsDisplayed(searchField);
     await browser.driver.findElement(By.id('orb-search-q')).sendKeys('Belarus');
     await browser.driver.findElement(By.xpath('//nav[1]/div[1]/ul[1]/li[2]')).click();
     await browser.driver.wait(until.elementLocated(By.xpath('//div[@class=\'orb-nav-section orb-nav-blocks\']')), 5000);
