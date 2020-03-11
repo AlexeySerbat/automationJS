@@ -7,3 +7,5 @@
 #### **Run Selenium WebServer**
 `npm run ws`
 
+#### **Run Protractor test**
+`npm run protractor`

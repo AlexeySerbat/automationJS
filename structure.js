@@ -2,7 +2,7 @@ describe('Project structure case', () => {
     const EC = protractor.ExpectedConditions;
     const yandexPage = require('./PageObject/yandexPage.js');
 
-    beforeEach(function () {
+    beforeAll(function () {
         browser.get('https://yandex.by/').then(() => {
             EC.titleIs('Яндекс');
         });
@@ -24,41 +24,35 @@ describe('Project structure case', () => {
                 browser.wait(EC.presenceOf(yandexPage.geoName));
                 expect(yandexPage.geoName.getText()).toBe('Лондон').then(() => {
                     yandexPage.elseButton.click().then(() => {
-                        const londonUpEl = yandexPage.elseUpperElements.count();
-                        const londonLowEl = yandexPage.elseUpperElements.count().then(() => {
-                                yandexPage.geoName.click().then(() => {
-                                    browser.getAllWindowHandles().then(function (handles) {
-                                        expect(handles.length).toEqual(3);
-                                        browser.switchTo().window(handles[2]);
-                                        browser.wait(EC.presenceOf(yandexPage.cityLabel));
-                                    });
-                                }).then(() => {
-                                    yandexPage.geoInput.sendKeys(protractor.Key.chord(protractor.Key.CONTROL, 'a'));
-                                    yandexPage.geoInput.sendKeys(protractor.Key.DELETE).then(() => {
-                                        yandexPage.geoInput.sendKeys('Париж').then(() => {
-                                            browser.sleep(1000);
-                                            browser.wait(EC.presenceOf(yandexPage.geoInputDropdown));
-                                            yandexPage.geoInputDropdown.click().then(() => {
-                                                browser.wait(EC.presenceOf(yandexPage.geoName));
-                                                expect(yandexPage.geoName.getText()).toBe('Париж').then(() => {
-                                                    yandexPage.elseButton.click().then(() => {
-                                                        const parisUpEl = yandexPage.elseUpperElements.count();
-                                                        const parisLowEl = yandexPage.elseUpperElements.count().then(() => {
-                                                                expect(londonUpEl).toEqual(parisUpEl);
-                                                                expect(londonLowEl).toEqual(parisLowEl);
-                                                        });
-                                                    });
-                                                });
-                                            });
-                                        });
-                                    });
-                                });
+                        const londonUpEl = yandexPage.elseUpperElements;
+                        const londonLowEl = yandexPage.elseLowerElements;
+                        yandexPage.geoName.click().then(() => {
+                            browser.getAllWindowHandles().then(function (handles) {
+                                expect(handles.length).toEqual(3);
+                                browser.switchTo().window(handles[2]);
+                                browser.wait(EC.presenceOf(yandexPage.cityLabel));
+                            });
                         });
-
-
+                        yandexPage.geoInput.sendKeys(protractor.Key.chord(protractor.Key.CONTROL, 'a'));
+                        yandexPage.geoInput.sendKeys(protractor.Key.DELETE);
+                        yandexPage.geoInput.sendKeys('Париж').then(() => {
+                            browser.sleep(1500);
+                            browser.wait(EC.presenceOf(yandexPage.geoInputDropdown));
+                            yandexPage.geoInputDropdown.click().then(() => {
+                                browser.wait(EC.presenceOf(yandexPage.geoName));
+                                expect(yandexPage.geoName.getText()).toBe('Париж');
+                            });
+                            yandexPage.elseButton.click();
+                            const parisUpEl = yandexPage.elseUpperElements;
+                            const parisLowEl = yandexPage.elseLowerElements;
+                            expect(londonUpEl.count()).toBe(parisUpEl.count());
+                            expect(londonLowEl.count()).toBe(parisLowEl.count());
+                        });
                     });
                 });
             });
         });
     });
 });
+
+
