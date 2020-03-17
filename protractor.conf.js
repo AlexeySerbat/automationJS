@@ -1,9 +1,10 @@
-const Jasmine2HtmlReporter = require('protractor-jasmine2-html-reporter');
-const AllureReporter = require('jasmine-allure-reporter');
 exports.config = {
     framework: 'jasmine2',
+    seleniumServerJar: "node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.4.0.jar",
+    directConnect: true,
+    SELENIUM_PROMISE_MANAGER: false,
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['structure.js'],
+    specs: ['./tests/structure.js'],
     multiCapabilities: {
         browserName: 'chrome',
     },
@@ -11,13 +12,5 @@ exports.config = {
         browser.waitForAngularEnabled(false);
         browser.driver.manage().deleteAllCookies();
         browser.driver.manage().window().maximize();
-        jasmine.getEnv().addReporter(
-            new Jasmine2HtmlReporter({
-                savePath: 'test/reports'
-            })
-        );
-        jasmine.getEnv().addReporter(new AllureReporter({
-            resultsDir: 'allure-results'
-        }));
     }
 };
