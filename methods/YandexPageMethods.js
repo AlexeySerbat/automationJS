@@ -47,6 +47,7 @@ function yandexPageMethods() {
         await browser.wait(EC.presenceOf(languagePageElements.languageButton));
     };
     this.expectEnglishIsCurrentLang = async function () {
+        await browser.wait(EC.presenceOf(yandexPageElements.languageButton));
         await yandexPageElements.languageButton.click();
         await browser.wait(EC.presenceOf(yandexPageElements.elseLanguage));
         await yandexPageElements.elseLanguage.click();

@@ -53,7 +53,7 @@ describe('First tests pull', () => {
         await yandexPageMethods.goToYandexPages();
     });
 
-    xit('Change language', async () => {
+    it('Change language', async () => {
         await yandexPageMethods.clickOnCurrentLanguage();
         await languagePageMethods.chooseEnglish();
         await yandexPageMethods.expectEnglishIsCurrentLang();

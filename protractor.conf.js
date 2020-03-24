@@ -11,11 +11,9 @@ exports.config = {
     jasmineNodeOpts: {
         defaultTimeoutInterval: 240000
     },
-    // restartBrowserBetweenTests: true,
     onPrepare: function () {
         browser.waitForAngularEnabled(false);
         browser.driver.manage().deleteAllCookies();
         browser.driver.manage().window().maximize();
-        browser.controlFlowIsEnabled();
     }
 };
