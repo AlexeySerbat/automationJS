@@ -4,13 +4,18 @@ exports.config = {
     directConnect: true,
     SELENIUM_PROMISE_MANAGER: false,
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['./tests/structure.js'],
-    multiCapabilities: {
-        browserName: 'chrome',
+    specs: ['./tests/firstPull.js'],
+    capabilities: {
+        browserName: 'chrome'
     },
+    jasmineNodeOpts: {
+        defaultTimeoutInterval: 240000
+    },
+    // restartBrowserBetweenTests: true,
     onPrepare: function () {
         browser.waitForAngularEnabled(false);
         browser.driver.manage().deleteAllCookies();
         browser.driver.manage().window().maximize();
+        browser.controlFlowIsEnabled();
     }
 };
