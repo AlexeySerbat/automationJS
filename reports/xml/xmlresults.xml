@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="7" tests="6" time="85.433">
+ <testsuite name="First tests pull" timestamp="2020-03-26T14:41:36" hostname="localhost" time="85.433" errors="0" tests="6" skipped="0" disabled="0" failures="7">
+  <testcase classname="First tests pull" name="Login in Yandex.Mail" time="29.165" />
+  <testcase classname="First tests pull" name="Log out Yandex.Mail" time="17.609" />
+  <testcase classname="First tests pull" name="Incorrect password" time="3.707">
+   <failure type="exception" message="Failed: windowsHandles.changeTsdaoSecondWindow is not a function"><![CDATA[TypeError: windowsHandles.changeTsdaoSecondWindow is not a function
+    at UserContext.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:39:30)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:37:5)
+    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="First tests pull" name="Incorrect login" time="18.91">
+   <failure type="toEqual" message="Expected &apos;Пароль не указан&apos; to equal &apos;Такого аккаунта нет&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:49:64)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)]]>
+   </failure>
+  </testcase>
+  <testcase classname="First tests pull" name="Navigation" time="15.726">
+   <failure type="exception" message="Failed: Cannot read property &apos;indexOf&apos; of null"><![CDATA[TypeError: Cannot read property 'indexOf' of null
+    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:256:36
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:53:5)
+    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at clearData.clearSessionData (C:\Users\Alexey\automationJS\controls\clearData.js:3:9)
+    at UserContext.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:16:9)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:15:5)
+    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="First tests pull" name="Change language" time="0.262">
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at UserContext.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:13:9)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:11:5)
+    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.<computed> [as click] (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.<computed> [as click] (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at yandexPageMethods.clickOnCurrentLanguage (C:\Users\Alexey\automationJS\methods\YandexPageMethods.js:49:49)
+    at UserContext.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:58:33)
+    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new Promise (<anonymous>)
+    at SimpleScheduler.promise (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+    at schedulerExecute (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2232:22
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:57:5)
+    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)"><![CDATA[NoSuchWindowError: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.149)
+  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)
+    at Object.checkLegacyResponse (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at clearData.clearSessionData (C:\Users\Alexey\automationJS\controls\clearData.js:3:9)
+    at UserContext.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:16:9)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:15:5)
+    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

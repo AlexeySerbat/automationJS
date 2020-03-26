@@ -1,0 +1,44 @@
+{
+  "uid" : "7e6670e4be698450",
+  "name" : "Change language",
+  "fullName" : "First tests pull.Change language",
+  "historyId" : "20a6dc923043f267687481f23fa2223d",
+  "time" : {
+    "start" : 1585065301689,
+    "stop" : 1585065307694,
+    "duration" : 6005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Change language"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e6670e4be698450.json",
+  "parameterValues" : [ ]
+}

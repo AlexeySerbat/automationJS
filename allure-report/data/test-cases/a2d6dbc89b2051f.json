@@ -1,0 +1,44 @@
+{
+  "uid" : "a2d6dbc89b2051f",
+  "name" : "Incorrect password",
+  "fullName" : "First tests pull.Incorrect password",
+  "historyId" : "9d93fddcd7c7e0c6531c1edf7364360f",
+  "time" : {
+    "start" : 1585065357659,
+    "stop" : 1585065364804,
+    "duration" : 7145
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Incorrect password"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2d6dbc89b2051f.json",
+  "parameterValues" : [ ]
+}

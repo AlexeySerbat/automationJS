@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585210697113' stop='1585210727264'>
+    <name>First tests pull</name>
+    <title>First tests pull</title>
+    <test-cases>
+        <test-case start='1585210697113' status='pending' stop='1585210697115'>
+            <name>Login in Yandex.Mail</name>
+            <title>Login in Yandex.Mail</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585210697115' status='pending' stop='1585210697116'>
+            <name>Log out Yandex.Mail</name>
+            <title>Log out Yandex.Mail</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585210697116' status='pending' stop='1585210697116'>
+            <name>Incorrect password</name>
+            <title>Incorrect password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585210697116' status='pending' stop='1585210697117'>
+            <name>Incorrect login</name>
+            <title>Incorrect login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585210697117' status='failed' stop='1585210727263'>
+            <name>Navigation</name>
+            <title>Navigation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: Cannot read property 'indexOf' of null</message>
+                <stack-trace>TypeError: Cannot read property 'indexOf' of null
+                    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:256:36
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:59:5)
+                    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585210727263' status='pending' stop='1585210727264'>
+            <name>Change language</name>
+            <title>Change language</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

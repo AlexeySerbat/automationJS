@@ -1,0 +1,46 @@
+{
+  "uid" : "5a626f36c9f0c2ab",
+  "name" : "Navigation",
+  "fullName" : "First tests pull.Navigation",
+  "historyId" : "cfe77f3f64aaf7c4b4b4f4efd2453a02",
+  "time" : {
+    "start" : 1585064825276,
+    "stop" : 1585064896239,
+    "duration" : 70963
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:51781",
+  "statusTrace" : "Error: EADDRINUSE connect EADDRINUSE 127.0.0.1:51781\n                    at ClientRequest.<anonymous> (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\selenium-webdriver\\http\\index.js:238:15)\n                    at ClientRequest.emit (events.js:210:5)\n                    at Socket.socketErrorListener (_http_client.js:406:9)\n                    at Socket.emit (events.js:210:5)\n                    at emitErrorNT (internal/streams/destroy.js:91:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)\n                    at processTicksAndRejections (internal/process/task_queues.js:80:21)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (C:\\Users\\Alexey\\automationJS\\tests\\firstPull.js:52:5)\n                    at addSpecsToSuite (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\Users\\Alexey\\automationJS\\tests\\firstPull.js:1:1)\n                    at Module._compile (internal/modules/cjs/loader.js:945:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)\n                    at Module.load (internal/modules/cjs/loader.js:798:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigation"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a626f36c9f0c2ab.json",
+  "parameterValues" : [ ]
+}

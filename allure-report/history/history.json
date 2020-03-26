@@ -1,0 +1,344 @@
+{
+  "3bd03c8144ae39d16f490edcb94eadc3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "c121b71946b3b3a0",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/c121b71946b3b3a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206015832,
+        "stop" : 1585206122897,
+        "duration" : 107065
+      }
+    }, {
+      "uid" : "fef0bb74db4f8447",
+      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/fef0bb74db4f8447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120058871,
+        "stop" : 1585120140775,
+        "duration" : 81904
+      }
+    }, {
+      "uid" : "30e90d6abb257f3a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/30e90d6abb257f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119664407,
+        "stop" : 1585119754629,
+        "duration" : 90222
+      }
+    }, {
+      "uid" : "55725524419e18a7",
+      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/55725524419e18a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065324488,
+        "stop" : 1585065349578,
+        "duration" : 25090
+      }
+    }, {
+      "uid" : "de52663ca9af1b5a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/de52663ca9af1b5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585064761616,
+        "stop" : 1585064806716,
+        "duration" : 45100
+      }
+    } ]
+  },
+  "9d93fddcd7c7e0c6531c1edf7364360f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "44f20620f666b00c",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/44f20620f666b00c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206203980,
+        "stop" : 1585206255208,
+        "duration" : 51228
+      }
+    }, {
+      "uid" : "ad11ff5397a4e7f2",
+      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/ad11ff5397a4e7f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120150638,
+        "stop" : 1585120156349,
+        "duration" : 5711
+      }
+    }, {
+      "uid" : "1a815e4d2ef6e42",
+      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/1a815e4d2ef6e42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119812486,
+        "stop" : 1585119817098,
+        "duration" : 4612
+      }
+    }, {
+      "uid" : "c16d0db31e8fb19e",
+      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/c16d0db31e8fb19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065357659,
+        "stop" : 1585065364804,
+        "duration" : 7145
+      }
+    }, {
+      "uid" : "6334d82b6578a3a7",
+      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/6334d82b6578a3a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585064815447,
+        "stop" : 1585064820116,
+        "duration" : 4669
+      }
+    } ]
+  },
+  "cfe77f3f64aaf7c4b4b4f4efd2453a02" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "582d37b3a5fc6b5e",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/582d37b3a5fc6b5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206314749,
+        "stop" : 1585206381598,
+        "duration" : 66849
+      }
+    }, {
+      "uid" : "18c8785bfd8da9ee",
+      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/18c8785bfd8da9ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120162098,
+        "stop" : 1585120176341,
+        "duration" : 14243
+      }
+    }, {
+      "uid" : "19a7bac374e79a41",
+      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/19a7bac374e79a41",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:59399",
+      "time" : {
+        "start" : 1585119822029,
+        "stop" : 1585119885574,
+        "duration" : 63545
+      }
+    }, {
+      "uid" : "1c74ce6cabb65e24",
+      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/1c74ce6cabb65e24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065370611,
+        "stop" : 1585065385791,
+        "duration" : 15180
+      }
+    }, {
+      "uid" : "404860b642ad30be",
+      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/404860b642ad30be",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:51781",
+      "time" : {
+        "start" : 1585064825276,
+        "stop" : 1585064896239,
+        "duration" : 70963
+      }
+    } ]
+  },
+  "6c181f79a0dfb1eaedefaa2292b4e92a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "c4e949635a4e6f5b",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/c4e949635a4e6f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206122897,
+        "stop" : 1585206203980,
+        "duration" : 81083
+      }
+    }, {
+      "uid" : "5eda37ef190fb3c8",
+      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/5eda37ef190fb3c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120140775,
+        "stop" : 1585120150638,
+        "duration" : 9863
+      }
+    }, {
+      "uid" : "fe644f96ec44b973",
+      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/fe644f96ec44b973",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119754629,
+        "stop" : 1585119812486,
+        "duration" : 57857
+      }
+    }, {
+      "uid" : "121349035428acfe",
+      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/121349035428acfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065349578,
+        "stop" : 1585065357659,
+        "duration" : 8081
+      }
+    }, {
+      "uid" : "28d0be6474d3b4c1",
+      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/28d0be6474d3b4c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585064806716,
+        "stop" : 1585064815447,
+        "duration" : 8731
+      }
+    } ]
+  },
+  "13fa5946d3254fb99d5d1caec446079c" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "82039f5f9f498095",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/82039f5f9f498095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206255208,
+        "stop" : 1585206314749,
+        "duration" : 59541
+      }
+    }, {
+      "uid" : "8859d66d995c5650",
+      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/8859d66d995c5650",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120156349,
+        "stop" : 1585120162098,
+        "duration" : 5749
+      }
+    }, {
+      "uid" : "7f3c6cd29d7f68b9",
+      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/7f3c6cd29d7f68b9",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585119817098,
+        "stop" : 1585119822029,
+        "duration" : 4931
+      }
+    }, {
+      "uid" : "8e026f2f7c099ef0",
+      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/8e026f2f7c099ef0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065364804,
+        "stop" : 1585065370610,
+        "duration" : 5806
+      }
+    }, {
+      "uid" : "5d01dc15416b086",
+      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/5d01dc15416b086",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585064820116,
+        "stop" : 1585064825276,
+        "duration" : 5160
+      }
+    } ]
+  },
+  "20a6dc923043f267687481f23fa2223d" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "72eb81459aa86fd0",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/72eb81459aa86fd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206381598,
+        "stop" : 1585206387925,
+        "duration" : 6327
+      }
+    }, {
+      "uid" : "e298f4f5826b6061",
+      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/e298f4f5826b6061",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120176341,
+        "stop" : 1585120181311,
+        "duration" : 4970
+      }
+    }, {
+      "uid" : "49580d3fb81420bd",
+      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/49580d3fb81420bd",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:59399",
+      "time" : {
+        "start" : 1585119885574,
+        "stop" : 1585119885580,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "c8dfee4c5b1e38e",
+      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/c8dfee4c5b1e38e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065385791,
+        "stop" : 1585065391124,
+        "duration" : 5333
+      }
+    }, {
+      "uid" : "e7b50d1aa5606c28",
+      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/e7b50d1aa5606c28",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:51781",
+      "time" : {
+        "start" : 1585064896239,
+        "stop" : 1585064896245,
+        "duration" : 6
+      }
+    } ]
+  }
+}

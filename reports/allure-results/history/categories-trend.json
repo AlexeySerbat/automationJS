@@ -1,0 +1,25 @@
+[ {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:9000/job/automationJS/8/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:9000/job/automationJS/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 3
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:9000/job/automationJS/6/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9000/job/automationJS/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 3
+  }
+} ]

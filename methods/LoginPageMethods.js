@@ -3,30 +3,29 @@ function LoginPageMethods () {
     const yandexPageElements = require('../pages/yandexPageElements');
     const loginPageElements = require('../pages/loginPageElements');
     const mailPageElements = require('../pages/mailPageElements');
-    const loginData = require('../data/loginData');
-    this.enterLogin = async function() {
+    this.enterLoginAndClickEnter = async function(login) {
         await browser.wait(EC.presenceOf(loginPageElements.loginField));
-        await loginPageElements.loginField.sendKeys(loginData.correctData.login);
+        await loginPageElements.loginField.sendKeys(login);
         await loginPageElements.submitLogin.click();
         await browser.wait(EC.presenceOf(loginPageElements.passwordField));
     };
-    this.enterPassword = async function () {
+    this.enterPasswordAndClickEnter = async function (password) {
         await browser.wait(EC.presenceOf(loginPageElements.passwordField));
-        await loginPageElements.passwordField.sendKeys(loginData.correctData.password);
+        await loginPageElements.passwordField.sendKeys(password);
         await loginPageElements.submitPassword.click();
         await browser.wait(EC.presenceOf(mailPageElements.displayNameOnTop));
     };
-    this.enterIncorrectLogin = async function() {
+    this.enterIncorrectLoginAndCLickEnter = async function(login) {
         await browser.wait(EC.presenceOf(loginPageElements.anotherAccount));
         await loginPageElements.anotherAccount.click();
         await browser.wait(EC.presenceOf(loginPageElements.loginField));
-        await loginPageElements.loginField.sendKeys(loginData.incorretData.login);
+        await loginPageElements.loginField.sendKeys(login);
         await loginPageElements.submitLogin.click();
         await browser.wait(EC.presenceOf(loginPageElements.errorMessage));
     };
-    this.enterIncorrectPassword = async function () {
+    this.enterIncorrectPasswordAndClickEnter = async function (password) {
         await browser.wait(EC.presenceOf(loginPageElements.passwordField));
-        await loginPageElements.passwordField.sendKeys(loginData.incorretData.password);
+        await loginPageElements.passwordField.sendKeys(password);
         await loginPageElements.submitPassword.click();
         await browser.wait(EC.presenceOf(loginPageElements.errorMessage));
     };

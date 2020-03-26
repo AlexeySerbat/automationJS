@@ -14,30 +14,35 @@ function yandexPageMethods() {
         await windowsHandles.changeToSecondWindow();
         await browser.wait(EC.titleContains(yandexPage[0]));
         await EC.titleIs(yandexPage[0]);
+        await browser.navigate().back();
         await windowsHandles.changeToFirstWindow();
 
         await yandexPageElements.yandexPictures.click();
         await windowsHandles.changeToSecondWindow();
         await browser.wait(EC.titleContains(yandexPage[1]));
         await EC.titleIs(yandexPage[1]);
+        await browser.navigate().back();
         await windowsHandles.changeToFirstWindow();
 
         await yandexPageElements.yandexNews.click();
         await windowsHandles.changeToSecondWindow();
         await browser.wait(EC.titleContains(yandexPage[2]));
         await EC.titleIs(yandexPage[2]);
+        await browser.navigate().back();
         await windowsHandles.changeToFirstWindow();
 
         await yandexPageElements.yandexMaps.click();
         await windowsHandles.changeToSecondWindow();
         await browser.wait(EC.titleContains(yandexPage[3]));
         await EC.titleIs(yandexPage[3]);
+        await browser.navigate().back();
         await windowsHandles.changeToFirstWindow();
 
         await yandexPageElements.yandexMarket.click();
         await windowsHandles.changeToSecondWindow();
         await browser.wait(EC.titleContains(yandexPage[4]));
         await EC.titleIs(yandexPage[4]);
+        await browser.navigate().back();
         await windowsHandles.changeToFirstWindow();
     };
     this.clickOnCurrentLanguage = async function () {

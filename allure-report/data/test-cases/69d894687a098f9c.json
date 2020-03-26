@@ -1,0 +1,46 @@
+{
+  "uid" : "69d894687a098f9c",
+  "name" : "Incorrect login",
+  "fullName" : "First tests pull.Incorrect login",
+  "historyId" : "13fa5946d3254fb99d5d1caec446079c",
+  "time" : {
+    "start" : 1585064820116,
+    "stop" : 1585064825276,
+    "duration" : 5160
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+  "statusTrace" : "WebDriverError: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)\n                    at Object.checkLegacyResponse (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n                    at parseHttpResponse (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n                    at C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error\n                    at ElementArrayFinder.applyAction_ (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\built\\element.js:459:27)\n                    at ElementArrayFinder.<computed> [as sendKeys] (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\built\\element.js:91:29)\n                    at ElementFinder.<computed> [as sendKeys] (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\built\\element.js:831:22)\n                    at LoginPageMethods.enterIncorrectLogin (C:\\Users\\Alexey\\automationJS\\methods\\LoginPageMethods.js:23:44)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at UserContext.<anonymous> (C:\\Users\\Alexey\\automationJS\\tests\\firstPull.js:47:9)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (C:\\Users\\Alexey\\automationJS\\tests\\firstPull.js:44:5)\n                    at addSpecsToSuite (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n                    at Env.describe (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n                    at describe (C:\\Users\\Alexey\\automationJS\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n                    at Object.<anonymous> (C:\\Users\\Alexey\\automationJS\\tests\\firstPull.js:1:1)\n                    at Module._compile (internal/modules/cjs/loader.js:945:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)\n                    at Module.load (internal/modules/cjs/loader.js:798:32)\n                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Incorrect login"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69d894687a098f9c.json",
+  "parameterValues" : [ ]
+}

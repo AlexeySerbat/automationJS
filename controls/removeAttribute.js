@@ -1,8 +1,8 @@
 function removeAttribute() {
-    const yandexPageElements = require('../pages/yandexPageElements');
-    this.removeTarget = async function () {
-        await browser.executeScript('arguments[0].removeAttribute("target");', yandexPageElements.loginButton.getWebElement());
-    }
+    this.removeTarget = async function (element) {
+        await browser.executeScript('arguments[0].removeAttribute("target");', element.getWebElement());
+    };
+
 }
 
 module.exports = new removeAttribute();

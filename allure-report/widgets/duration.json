@@ -1,0 +1,61 @@
+[ {
+  "uid" : "82039f5f9f498095",
+  "name" : "Incorrect login",
+  "time" : {
+    "start" : 1585206255208,
+    "stop" : 1585206314749,
+    "duration" : 59541
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44f20620f666b00c",
+  "name" : "Incorrect password",
+  "time" : {
+    "start" : 1585206203980,
+    "stop" : 1585206255208,
+    "duration" : 51228
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "582d37b3a5fc6b5e",
+  "name" : "Navigation",
+  "time" : {
+    "start" : 1585206314749,
+    "stop" : 1585206381598,
+    "duration" : 66849
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72eb81459aa86fd0",
+  "name" : "Change language",
+  "time" : {
+    "start" : 1585206381598,
+    "stop" : 1585206387925,
+    "duration" : 6327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4e949635a4e6f5b",
+  "name" : "Log out Yandex.Mail",
+  "time" : {
+    "start" : 1585206122897,
+    "stop" : 1585206203980,
+    "duration" : 81083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c121b71946b3b3a0",
+  "name" : "Login in Yandex.Mail",
+  "time" : {
+    "start" : 1585206015832,
+    "stop" : 1585206122897,
+    "duration" : 107065
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

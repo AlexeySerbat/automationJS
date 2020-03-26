@@ -6,6 +6,7 @@ describe('First tests pull', () => {
     const mailPageElements = require('../pages/mailPageElements');
     const languagePageMethods = require('../methods/LanguagePageMethods');
     const windowsHandles = require('../controls/windowHandles');
+    const removeAttribute = require('../controls/removeAttribute');
     const clearData = require('../controls/clearData');
     beforeEach(async () => {
         await browser.waitForAngularEnabled(false);
@@ -18,8 +19,8 @@ describe('First tests pull', () => {
     it('Login in Yandex.Mail', async () => {
         await yandexPageElements.loginButton.click();
         await windowsHandles.changeToSecondWindow();
-        await loginPageMethods.enterLogin();
-        await loginPageMethods.enterPassword();
+        await loginPageMethods.enterLoginAndClickEnter('AutotestUser');
+        await loginPageMethods.enterPasswordAndClickEnter('AutotestUser123');
         await expect(mailPageElements.displayNameOnTop.getText()).toEqual('AutotestUser');
         await windowsHandles.changeToFirstWindow();
     });
@@ -27,7 +28,7 @@ describe('First tests pull', () => {
     it('Log out Yandex.Mail', async () => {
         await yandexPageElements.loginButton.click();
         await windowsHandles.changeToSecondWindow();
-        await loginPageMethods.enterPassword();
+        await loginPageMethods.enterPasswordAndClickEnter('AutotestUser123');
         await expect(mailPageElements.displayNameOnTop.getText()).toEqual('AutotestUser');
         await loginPageMethods.logoutMail();
         await windowsHandles.changeToFirstWindow();
@@ -36,7 +37,7 @@ describe('First tests pull', () => {
     it('Incorrect password', async () => {
         await yandexPageElements.loginButton.click();
         await windowsHandles.changeToSecondWindow();
-        await loginPageMethods.enterIncorrectPassword();
+        await loginPageMethods.enterIncorrectPasswordAndClickEnter('NoAutotestUser123');
         await expect(loginPageElements.errorMessage.getText()).toEqual('Неверный пароль');
         await windowsHandles.changeToFirstWindow();
     });
@@ -44,7 +45,7 @@ describe('First tests pull', () => {
     it('Incorrect login', async () => {
         await yandexPageElements.loginButton.click();
         await windowsHandles.changeToSecondWindow();
-        await loginPageMethods.enterIncorrectLogin();
+        await loginPageMethods.enterIncorrectLoginAndCLickEnter('NoAutotestUser');
         await expect(loginPageElements.errorMessage.getText()).toEqual('Такого аккаунта нет');
         await windowsHandles.changeToFirstWindow();
     });
