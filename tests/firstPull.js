@@ -6,11 +6,12 @@ describe('First tests pull', () => {
     const mailPageElements = require('../pages/mailPageElements');
     const languagePageMethods = require('../methods/LanguagePageMethods');
     const windowsHandles = require('../controls/windowHandles');
-    const removeAttribute = require('../controls/removeAttribute');
     const clearData = require('../controls/clearData');
+    const EC = protractor.ExpectedConditions;
     beforeEach(async () => {
         await browser.waitForAngularEnabled(false);
         await browser.get('https://yandex.by/');
+        await browser.wait(EC.elementToBeClickable(yandexPageElements.loginButton));
     });
     afterEach(async () => {
         await clearData.clearSessionData();
