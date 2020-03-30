@@ -3,6 +3,11 @@ function yandexPageMethods() {
     const yandexPageElements = require('../pages/yandexPageElements');
     const languagePageElements = require('../pages/languagePageElements');
     const windowsHandles = require('../controls/windowHandles');
+    const yandexMarketElements = require('../pages/yandexMarketElements');
+    const loginPageMethods = require('../methods/LoginPageMethods');
+    const loginPageElements = require('../pages/loginPageElements');
+    const yandexMusicElements = require('../pages/yandexMusicElements');
+
     this.countElse = async function () {
         await yandexPageElements.elseButton.click();
         await browser.wait(EC.presenceOf(yandexPageElements.elseDropdown));
@@ -57,7 +62,37 @@ function yandexPageMethods() {
         await browser.wait(EC.presenceOf(yandexPageElements.elseLanguage));
         await yandexPageElements.elseLanguage.click();
         await browser.wait(EC.presenceOf(yandexPageElements.languageDropdown));
-        expect(yandexPageElements.languageDropdown.getText()).toEqual("English");
+        await expect(yandexPageElements.languageDropdown.getText()).toEqual("English");
+    };
+    this.goToYandexMarket = async function () {
+        await yandexPageElements.yandexMarket.click();
+        await windowsHandles.changeToSecondWindow();
+        await browser.wait(EC.presenceOf(yandexMarketElements.searchInput));
+    };
+    this.goToYandexMusic = async function () {
+        await yandexPageElements.yandexMusic.click();
+        await windowsHandles.changeToSecondWindow();
+        await browser.wait(EC.presenceOf(yandexMusicElements.searchInput));
+    };
+    this.loginIntoYandex = async function () {
+        await yandexPageElements.loginButton.click();
+        await windowsHandles.changeToSecondWindow();
+        await browser.wait(EC.presenceOf(loginPageElements.loginField || loginPageElements.passwordField));
+        await loginPageElements.passwordField.isPresent().then(async (isPresent) => {
+            if (isPresent === true){
+                await loginPageMethods.enterPasswordAndClickEnter('AutotestUser123');
+            } else {
+                await loginPageMethods.enterLoginAndClickEnter('AutotestUser');
+                await loginPageMethods.enterPasswordAndClickEnter('AutotestUser123');
+            }
+        });
+        await windowsHandles.changeToFirstWindow();
+    };
+    this.loginIntoYandexMusic = async function () {
+        await yandexPageElements.loginButton.click();
+        await windowsHandles.changeToSecondWindow();
+        await loginPageMethods.enterPasswordAndClickEnter('AutotestUser123');
+        await windowsHandles.changeToFirstWindow();
     }
 }
 

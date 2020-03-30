@@ -7,6 +7,7 @@ function yandexPageElements () {
     this.yandexNews = element(by.css('div.home-arrow__tabs > div > a:nth-child(3)'));
     this.yandexMaps = element(by.css('div.home-arrow__tabs > div > a:nth-child(4)'));
     this.yandexMarket = element(by.css('div.home-arrow__tabs > div > a:nth-child(5)'));
+    this.yandexMusic = element(by.css('div.home-arrow__tabs > div > a:nth-child(7)'));
     this.languageButton = element(by.css('div.col.headline__bar-item.b-langs > div > a'));
     this.languageDropdown = element(by.css('.i-bem.select_js_inited > button > span'));
     this.elseLanguage = element(by.css('.popup2_visible_yes > ul > div:nth-child(2) > li > a'));

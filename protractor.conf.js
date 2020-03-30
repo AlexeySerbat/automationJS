@@ -4,10 +4,18 @@ exports.config = {
     directConnect: true,
     SELENIUM_PROMISE_MANAGER: false,
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['./tests/firstPull.js'],
+    specs: ['./tests/secondPull.js'],
     capabilities: {
-        browserName: 'chrome'
+        browserName: 'chrome',
+        chromeOptions: {
+             excludeSwitches: ['enable-automation'],
+             args: [//"--headless",
+                 //"--disable-gpu",
+                 //"--window-size=800x600",
+                 "disable-infobars"],
+        }
     },
+
     jasmineNodeOpts: {
         defaultTimeoutInterval: 240000
     },
