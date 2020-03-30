@@ -65,22 +65,19 @@ function yandexPageMethods() {
         await expect(yandexPageElements.languageDropdown.getText()).toEqual("English");
     };
     this.goToYandexMarket = async function () {
-        await browser.wait(EC.presenceOf(yandexPageElements.yandexMarket));
         await yandexPageElements.yandexMarket.click();
         await windowsHandles.changeToSecondWindow();
         await browser.wait(EC.presenceOf(yandexMarketElements.searchInput));
     };
     this.goToYandexMusic = async function () {
-        await browser.wait(EC.presenceOf(yandexPageElements.yandexMusic));
         await yandexPageElements.yandexMusic.click();
         await windowsHandles.changeToSecondWindow();
         await browser.wait(EC.presenceOf(yandexMusicElements.searchInput));
     };
     this.loginIntoYandex = async function () {
-        await browser.wait(EC.presenceOf(yandexPageElements.loginButton));
         await yandexPageElements.loginButton.click();
         await windowsHandles.changeToSecondWindow();
-        await browser.wait(EC.presenceOf(loginPageElements.submitLogin));
+        await browser.wait(EC.presenceOf(loginPageElements.loginField || loginPageElements.passwordField));
         await loginPageElements.passwordField.isPresent().then(async (isPresent) => {
             if (isPresent === true){
                 await loginPageMethods.enterPasswordAndClickEnter('AutotestUser123');
