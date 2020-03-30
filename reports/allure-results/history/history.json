@@ -1,61 +1,257 @@
 {
-  "3bd03c8144ae39d16f490edcb94eadc3" : {
+  "8361a9a4e90c467d5b0827cebc762feb" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 10,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "fef0bb74db4f8447",
-      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/fef0bb74db4f8447",
-      "status" : "passed",
+      "uid" : "320744f48a40ad78",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/320744f48a40ad78",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
       "time" : {
-        "start" : 1585120058871,
-        "stop" : 1585120140775,
-        "duration" : 81904
+        "start" : 1585570304665,
+        "stop" : 1585570304670,
+        "duration" : 5
       }
     }, {
-      "uid" : "30e90d6abb257f3a",
-      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/30e90d6abb257f3a",
-      "status" : "passed",
+      "uid" : "6ecea7295b26eb93",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/6ecea7295b26eb93",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
       "time" : {
-        "start" : 1585119664407,
-        "stop" : 1585119754629,
-        "duration" : 90222
+        "start" : 1585570304665,
+        "stop" : 1585570304670,
+        "duration" : 5
       }
     }, {
-      "uid" : "55725524419e18a7",
-      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/55725524419e18a7",
-      "status" : "passed",
+      "uid" : "f8f5de4a447b8eb3",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/f8f5de4a447b8eb3",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
       "time" : {
-        "start" : 1585065324488,
-        "stop" : 1585065349578,
-        "duration" : 25090
+        "start" : 1585570304665,
+        "stop" : 1585570304670,
+        "duration" : 5
       }
     }, {
-      "uid" : "de52663ca9af1b5a",
-      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/de52663ca9af1b5a",
-      "status" : "passed",
+      "uid" : "dc0ac5cbc8b7469f",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/dc0ac5cbc8b7469f",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
       "time" : {
-        "start" : 1585064761616,
-        "stop" : 1585064806716,
-        "duration" : 45100
+        "start" : 1585568804577,
+        "stop" : 1585568804584,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "9f81cde2da61c132",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/9f81cde2da61c132",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804577,
+        "stop" : 1585568804584,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "cd5414e2afa28509",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/cd5414e2afa28509",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319392,
+        "stop" : 1585568319399,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "71773758f670415c",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/71773758f670415c",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63393",
+      "time" : {
+        "start" : 1585553199265,
+        "stop" : 1585553199270,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "a8ea455796c3c13a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/a8ea455796c3c13a",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549795360,
+        "stop" : 1585549795368,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "f4bd955f23c03fba",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/f4bd955f23c03fba",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:64239",
+      "time" : {
+        "start" : 1585472190999,
+        "stop" : 1585472191023,
+        "duration" : 24
+      }
+    }, {
+      "uid" : "c0b89bb2f2240a39",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/c0b89bb2f2240a39",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317108,
+        "stop" : 1585465317113,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "8a0f65340c1aa491",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/8a0f65340c1aa491",
+      "status" : "skipped",
+      "statusDetails" : "Temporarily disabled with xit",
+      "time" : {
+        "start" : 1585378814615,
+        "stop" : 1585378814615,
+        "duration" : 0
       }
     } ]
   },
   "9d93fddcd7c7e0c6531c1edf7364360f" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 4
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "697c23b56c045e4f",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/697c23b56c045e4f",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570303846,
+        "stop" : 1585570304630,
+        "duration" : 784
+      }
+    }, {
+      "uid" : "51ee505ea4dd7121",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/51ee505ea4dd7121",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570303846,
+        "stop" : 1585570304630,
+        "duration" : 784
+      }
+    }, {
+      "uid" : "a77001dcb010536d",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/a77001dcb010536d",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570303846,
+        "stop" : 1585570304630,
+        "duration" : 784
+      }
+    }, {
+      "uid" : "5b3e4f3ed9b349cd",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/5b3e4f3ed9b349cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568899662,
+        "stop" : 1585568905345,
+        "duration" : 5683
+      }
+    }, {
+      "uid" : "3cc494ac8fb71b32",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/3cc494ac8fb71b32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568730871,
+        "stop" : 1585568736546,
+        "duration" : 5675
+      }
+    }, {
+      "uid" : "978a98be3d8f8423",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/978a98be3d8f8423",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319347,
+        "stop" : 1585568319355,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "dfce540951a54f9b",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/dfce540951a54f9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585553121787,
+        "stop" : 1585553123948,
+        "duration" : 2161
+      }
+    }, {
+      "uid" : "70ecb4cd2345c141",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/70ecb4cd2345c141",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585549791305,
+        "stop" : 1585549794806,
+        "duration" : 3501
+      }
+    }, {
+      "uid" : "3b0434fd1bf273aa",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/3b0434fd1bf273aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585472018402,
+        "stop" : 1585472024310,
+        "duration" : 5908
+      }
+    }, {
+      "uid" : "a002449a794061dc",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/a002449a794061dc",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317064,
+        "stop" : 1585465317071,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "9bc0b5b579a41b06",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/9bc0b5b579a41b06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292514812,
+        "stop" : 1585292520283,
+        "duration" : 5471
+      }
+    }, {
+      "uid" : "6d9ce0a6db9e394c",
+      "reportUrl" : "http://localhost:9000/job/automationJS/10/allure/#testresult/6d9ce0a6db9e394c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292514812,
+        "stop" : 1585292520283,
+        "duration" : 5471
+      }
+    }, {
+      "uid" : "44f20620f666b00c",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/44f20620f666b00c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206203980,
+        "stop" : 1585206255208,
+        "duration" : 51228
+      }
+    }, {
       "uid" : "ad11ff5397a4e7f2",
       "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/ad11ff5397a4e7f2",
       "status" : "passed",
@@ -95,14 +291,139 @@
   },
   "cfe77f3f64aaf7c4b4b4f4efd2453a02" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 10,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "9d0754272c09a725",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/9d0754272c09a725",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304636,
+        "stop" : 1585570304642,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "f6a5229a482a7eef",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/f6a5229a482a7eef",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304636,
+        "stop" : 1585570304642,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "abf0d302b15d29a6",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/abf0d302b15d29a6",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304636,
+        "stop" : 1585570304642,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "e52ff56b0e4892f5",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/e52ff56b0e4892f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568910946,
+        "stop" : 1585568946712,
+        "duration" : 35766
+      }
+    }, {
+      "uid" : "19d78d012370d7a5",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/19d78d012370d7a5",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568741852,
+        "stop" : 1585568804552,
+        "duration" : 62700
+      }
+    }, {
+      "uid" : "e2b98c6f77b242c3",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/e2b98c6f77b242c3",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319361,
+        "stop" : 1585568319369,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "ef342d79dee7f41",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/ef342d79dee7f41",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63393",
+      "time" : {
+        "start" : 1585553125903,
+        "stop" : 1585553199241,
+        "duration" : 73338
+      }
+    }, {
+      "uid" : "113dcdaa5512d241",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/113dcdaa5512d241",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549794825,
+        "stop" : 1585549794861,
+        "duration" : 36
+      }
+    }, {
+      "uid" : "fd9e84102b335a31",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/fd9e84102b335a31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585472032856,
+        "stop" : 1585472047410,
+        "duration" : 14554
+      }
+    }, {
+      "uid" : "95ab412b794fa9fb",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/95ab412b794fa9fb",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317078,
+        "stop" : 1585465317085,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "5592dfd47a86ac3a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/5592dfd47a86ac3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292525696,
+        "stop" : 1585292539874,
+        "duration" : 14178
+      }
+    }, {
+      "uid" : "9ee6123f5d35bef4",
+      "reportUrl" : "http://localhost:9000/job/automationJS/10/allure/#testresult/9ee6123f5d35bef4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292525696,
+        "stop" : 1585292539874,
+        "duration" : 14178
+      }
+    }, {
+      "uid" : "582d37b3a5fc6b5e",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/582d37b3a5fc6b5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206314749,
+        "stop" : 1585206381598,
+        "duration" : 66849
+      }
+    }, {
       "uid" : "18c8785bfd8da9ee",
       "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/18c8785bfd8da9ee",
       "status" : "passed",
@@ -142,63 +463,383 @@
       }
     } ]
   },
-  "6c181f79a0dfb1eaedefaa2292b4e92a" : {
+  "e0e1e16727dd4d9fd3837d1edcd2f5f" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 10,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 11
     },
     "items" : [ {
-      "uid" : "5eda37ef190fb3c8",
-      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/5eda37ef190fb3c8",
-      "status" : "passed",
+      "uid" : "8bbb42eee9bf0e3f",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/8bbb42eee9bf0e3f",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
       "time" : {
-        "start" : 1585120140775,
-        "stop" : 1585120150638,
-        "duration" : 9863
+        "start" : 1585570304656,
+        "stop" : 1585570304660,
+        "duration" : 4
       }
     }, {
-      "uid" : "fe644f96ec44b973",
-      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/fe644f96ec44b973",
-      "status" : "passed",
+      "uid" : "e579a72b3f540c2a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/e579a72b3f540c2a",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
       "time" : {
-        "start" : 1585119754629,
-        "stop" : 1585119812486,
-        "duration" : 57857
+        "start" : 1585570304656,
+        "stop" : 1585570304660,
+        "duration" : 4
       }
     }, {
-      "uid" : "121349035428acfe",
-      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/121349035428acfe",
-      "status" : "passed",
+      "uid" : "e2232c82fd4d7908",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/e2232c82fd4d7908",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
       "time" : {
-        "start" : 1585065349578,
-        "stop" : 1585065357659,
-        "duration" : 8081
+        "start" : 1585570304656,
+        "stop" : 1585570304660,
+        "duration" : 4
       }
     }, {
-      "uid" : "28d0be6474d3b4c1",
-      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/28d0be6474d3b4c1",
-      "status" : "passed",
+      "uid" : "dc9d4bac972ad47b",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/dc9d4bac972ad47b",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
       "time" : {
-        "start" : 1585064806716,
-        "stop" : 1585064815447,
-        "duration" : 8731
+        "start" : 1585568804568,
+        "stop" : 1585568804572,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "a7c414234a517745",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/a7c414234a517745",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804568,
+        "stop" : 1585568804572,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "d3a2cea68d706228",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/d3a2cea68d706228",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319383,
+        "stop" : 1585568319387,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "f3cc461f744d9156",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/f3cc461f744d9156",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63393",
+      "time" : {
+        "start" : 1585553199255,
+        "stop" : 1585553199259,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "f88c90c71228ba30",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/f88c90c71228ba30",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549795284,
+        "stop" : 1585549795353,
+        "duration" : 69
+      }
+    }, {
+      "uid" : "69519bbf0d64bd5",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/69519bbf0d64bd5",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585472056473,
+        "stop" : 1585472069335,
+        "duration" : 12862
+      }
+    }, {
+      "uid" : "f17d6e2751e2b326",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/f17d6e2751e2b326",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317099,
+        "stop" : 1585465317103,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "5cfdaf4e470544af",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/5cfdaf4e470544af",
+      "status" : "skipped",
+      "statusDetails" : "Temporarily disabled with xit",
+      "time" : {
+        "start" : 1585378814611,
+        "stop" : 1585378814613,
+        "duration" : 2
+      }
+    } ]
+  },
+  "70cd79095e8c202d56bb923a21a78b9b" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "6754f26c06708f16",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/6754f26c06708f16",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304660,
+        "stop" : 1585570304664,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "6a05ed3a7860e5d6",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/6a05ed3a7860e5d6",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304660,
+        "stop" : 1585570304664,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "ac0d07e49a9d038c",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/ac0d07e49a9d038c",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304660,
+        "stop" : 1585570304664,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "2f22b06a0802c176",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/2f22b06a0802c176",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804572,
+        "stop" : 1585568804577,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "d3b05da877c02120",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/d3b05da877c02120",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804572,
+        "stop" : 1585568804577,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "fb78af4367d891fb",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/fb78af4367d891fb",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319387,
+        "stop" : 1585568319392,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "35a841fa73a83b52",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/35a841fa73a83b52",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63393",
+      "time" : {
+        "start" : 1585553199259,
+        "stop" : 1585553199264,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "a402978ab79670b6",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/a402978ab79670b6",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549795353,
+        "stop" : 1585549795360,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "5d99811b56bdc101",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/5d99811b56bdc101",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:64239",
+      "time" : {
+        "start" : 1585472069336,
+        "stop" : 1585472190999,
+        "duration" : 121663
+      }
+    }, {
+      "uid" : "8e12155aad116a41",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/8e12155aad116a41",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317103,
+        "stop" : 1585465317108,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "f7717411bb7affd8",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/f7717411bb7affd8",
+      "status" : "skipped",
+      "statusDetails" : "Temporarily disabled with xit",
+      "time" : {
+        "start" : 1585378814613,
+        "stop" : 1585378814615,
+        "duration" : 2
       }
     } ]
   },
   "13fa5946d3254fb99d5d1caec446079c" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 10,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 4
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "b41a829b00cd6456",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/b41a829b00cd6456",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304630,
+        "stop" : 1585570304636,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "f3f464ada4518e50",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/f3f464ada4518e50",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304630,
+        "stop" : 1585570304636,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "3eeff39ba6e68aea",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/3eeff39ba6e68aea",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304630,
+        "stop" : 1585570304636,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "3b4981d48945c780",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/3b4981d48945c780",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568905345,
+        "stop" : 1585568910946,
+        "duration" : 5601
+      }
+    }, {
+      "uid" : "33cf19d6c5cd673b",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/33cf19d6c5cd673b",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585568736546,
+        "stop" : 1585568741852,
+        "duration" : 5306
+      }
+    }, {
+      "uid" : "6874aecddd213138",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/6874aecddd213138",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319355,
+        "stop" : 1585568319361,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "f3a18a6f08efe40a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/f3a18a6f08efe40a",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: headless chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585553123948,
+        "stop" : 1585553125903,
+        "duration" : 1955
+      }
+    }, {
+      "uid" : "ce0c96624e9d3a7",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/ce0c96624e9d3a7",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549794806,
+        "stop" : 1585549794825,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "7b5e6f103ada6f6c",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/7b5e6f103ada6f6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585472024310,
+        "stop" : 1585472032856,
+        "duration" : 8546
+      }
+    }, {
+      "uid" : "dc56263a27fa111d",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/dc56263a27fa111d",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317071,
+        "stop" : 1585465317078,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "38416ecc0af3b3d6",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/38416ecc0af3b3d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292520283,
+        "stop" : 1585292525696,
+        "duration" : 5413
+      }
+    }, {
+      "uid" : "3f8a8fd90af5bb86",
+      "reportUrl" : "http://localhost:9000/job/automationJS/10/allure/#testresult/3f8a8fd90af5bb86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292520283,
+        "stop" : 1585292525696,
+        "duration" : 5413
+      }
+    }, {
+      "uid" : "82039f5f9f498095",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/82039f5f9f498095",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206255208,
+        "stop" : 1585206314749,
+        "duration" : 59541
+      }
+    }, {
       "uid" : "8859d66d995c5650",
       "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/8859d66d995c5650",
       "status" : "passed",
@@ -238,16 +879,822 @@
       }
     } ]
   },
-  "20a6dc923043f267687481f23fa2223d" : {
+  "37bb13655e72cc41e58abffcd510f119" : {
     "statistic" : {
-      "failed" : 2,
+      "failed" : 10,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 4
+      "total" : 10
     },
     "items" : [ {
+      "uid" : "dd6548438ee6d64a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/dd6548438ee6d64a",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304674,
+        "stop" : 1585570304678,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "713d4d3c89a17dcb",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/713d4d3c89a17dcb",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304674,
+        "stop" : 1585570304678,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "d441457b830a5ed0",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/d441457b830a5ed0",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304674,
+        "stop" : 1585570304678,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "646f07e81ea9db2e",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/646f07e81ea9db2e",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804590,
+        "stop" : 1585568804595,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "464ed205f4978bee",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/464ed205f4978bee",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804590,
+        "stop" : 1585568804595,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "f9f81aaf118648ed",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/f9f81aaf118648ed",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319405,
+        "stop" : 1585568319410,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "da989af2f5919cb6",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/da989af2f5919cb6",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63393",
+      "time" : {
+        "start" : 1585553199275,
+        "stop" : 1585553199281,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "481f251d651e9008",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/481f251d651e9008",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549795431,
+        "stop" : 1585549795437,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "cd19ef8919d49ea0",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/cd19ef8919d49ea0",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:64239",
+      "time" : {
+        "start" : 1585472191033,
+        "stop" : 1585472191038,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "388f8fb94e47c878",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/388f8fb94e47c878",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317117,
+        "stop" : 1585465317122,
+        "duration" : 5
+      }
+    } ]
+  },
+  "3bd03c8144ae39d16f490edcb94eadc3" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "c78d18604bb11752",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/c78d18604bb11752",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570293540,
+        "stop" : 1585570303826,
+        "duration" : 10286
+      }
+    }, {
+      "uid" : "ee996c203e2d2c15",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/ee996c203e2d2c15",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570293540,
+        "stop" : 1585570303826,
+        "duration" : 10286
+      }
+    }, {
+      "uid" : "9fc3eeab0eada566",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/9fc3eeab0eada566",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570293540,
+        "stop" : 1585570303826,
+        "duration" : 10286
+      }
+    }, {
+      "uid" : "ce2e7ef04b96a014",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/ce2e7ef04b96a014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568865995,
+        "stop" : 1585568888402,
+        "duration" : 22407
+      }
+    }, {
+      "uid" : "fce05918c3257c66",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/fce05918c3257c66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568678175,
+        "stop" : 1585568720928,
+        "duration" : 42753
+      }
+    }, {
+      "uid" : "4da2e65b957a9236",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/4da2e65b957a9236",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585568207484,
+        "stop" : 1585568221655,
+        "duration" : 14171
+      }
+    }, {
+      "uid" : "af9de6f8c0851245",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/af9de6f8c0851245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585553107851,
+        "stop" : 1585553116049,
+        "duration" : 8198
+      }
+    }, {
+      "uid" : "4715b82a151d7e2f",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/4715b82a151d7e2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585549767407,
+        "stop" : 1585549781822,
+        "duration" : 14415
+      }
+    }, {
+      "uid" : "c34d8ca896d5096",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/c34d8ca896d5096",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585471978078,
+        "stop" : 1585472008365,
+        "duration" : 30287
+      }
+    }, {
+      "uid" : "c017c689356f2a0a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/c017c689356f2a0a",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585465205497,
+        "stop" : 1585465215100,
+        "duration" : 9603
+      }
+    }, {
+      "uid" : "86cca1bb02119bc1",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/86cca1bb02119bc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292422289,
+        "stop" : 1585292505369,
+        "duration" : 83080
+      }
+    }, {
+      "uid" : "747b9f6cf951a42b",
+      "reportUrl" : "http://localhost:9000/job/automationJS/10/allure/#testresult/747b9f6cf951a42b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292422289,
+        "stop" : 1585292505369,
+        "duration" : 83080
+      }
+    }, {
+      "uid" : "c121b71946b3b3a0",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/c121b71946b3b3a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206015832,
+        "stop" : 1585206122897,
+        "duration" : 107065
+      }
+    }, {
+      "uid" : "fef0bb74db4f8447",
+      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/fef0bb74db4f8447",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120058871,
+        "stop" : 1585120140775,
+        "duration" : 81904
+      }
+    }, {
+      "uid" : "30e90d6abb257f3a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/30e90d6abb257f3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119664407,
+        "stop" : 1585119754629,
+        "duration" : 90222
+      }
+    }, {
+      "uid" : "55725524419e18a7",
+      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/55725524419e18a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065324488,
+        "stop" : 1585065349578,
+        "duration" : 25090
+      }
+    }, {
+      "uid" : "de52663ca9af1b5a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/de52663ca9af1b5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585064761616,
+        "stop" : 1585064806716,
+        "duration" : 45100
+      }
+    } ]
+  },
+  "b066fd66ac523d9091aa2fae8c25cd71" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "items" : [ {
+      "uid" : "f9a7e9e5feca86f9",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/f9a7e9e5feca86f9",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304678,
+        "stop" : 1585570304682,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "ae169b892817ea2d",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/ae169b892817ea2d",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304678,
+        "stop" : 1585570304682,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "fd39fa3ee35ab988",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/fd39fa3ee35ab988",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304678,
+        "stop" : 1585570304682,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "1da38293b91ec517",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/1da38293b91ec517",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804595,
+        "stop" : 1585568804600,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "7988980dc84c2b3d",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/7988980dc84c2b3d",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804595,
+        "stop" : 1585568804600,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "ef8438c72cf8d5c3",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/ef8438c72cf8d5c3",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319410,
+        "stop" : 1585568319415,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "7e8b2ff275cbff49",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/7e8b2ff275cbff49",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63393",
+      "time" : {
+        "start" : 1585553199281,
+        "stop" : 1585553199287,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "7f5f953cbac38991",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/7f5f953cbac38991",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549795437,
+        "stop" : 1585549795442,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "cee6c9b8b726e4a5",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/cee6c9b8b726e4a5",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:64239",
+      "time" : {
+        "start" : 1585472191038,
+        "stop" : 1585472191043,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "482aa97e6419042b",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/482aa97e6419042b",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317122,
+        "stop" : 1585465317127,
+        "duration" : 5
+      }
+    } ]
+  },
+  "6c181f79a0dfb1eaedefaa2292b4e92a" : {
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "951e31c4195ecacc",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/951e31c4195ecacc",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570303828,
+        "stop" : 1585570303846,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "5181b90b0bd5209e",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/5181b90b0bd5209e",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570303828,
+        "stop" : 1585570303846,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "c22e4e9d677db93f",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/c22e4e9d677db93f",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570303828,
+        "stop" : 1585570303846,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "aaaf1862ef28cb17",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/aaaf1862ef28cb17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568888402,
+        "stop" : 1585568899662,
+        "duration" : 11260
+      }
+    }, {
+      "uid" : "264208ffe3ef4276",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/264208ffe3ef4276",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568720928,
+        "stop" : 1585568730871,
+        "duration" : 9943
+      }
+    }, {
+      "uid" : "5d55ff902404408f",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/5d55ff902404408f",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568221655,
+        "stop" : 1585568319347,
+        "duration" : 97692
+      }
+    }, {
+      "uid" : "8a0085740c4c71fe",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/8a0085740c4c71fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585553116050,
+        "stop" : 1585553121787,
+        "duration" : 5737
+      }
+    }, {
+      "uid" : "61a0980958bcd9bd",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/61a0980958bcd9bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585549781822,
+        "stop" : 1585549791305,
+        "duration" : 9483
+      }
+    }, {
+      "uid" : "4edfa4a12f24ba69",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/4edfa4a12f24ba69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585472008365,
+        "stop" : 1585472018401,
+        "duration" : 10036
+      }
+    }, {
+      "uid" : "6849389104cf1e21",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/6849389104cf1e21",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465215100,
+        "stop" : 1585465317064,
+        "duration" : 101964
+      }
+    }, {
+      "uid" : "39e56d96e27ae6f3",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/39e56d96e27ae6f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292505369,
+        "stop" : 1585292514812,
+        "duration" : 9443
+      }
+    }, {
+      "uid" : "a6a9c9c42f7b235f",
+      "reportUrl" : "http://localhost:9000/job/automationJS/10/allure/#testresult/a6a9c9c42f7b235f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292505369,
+        "stop" : 1585292514812,
+        "duration" : 9443
+      }
+    }, {
+      "uid" : "c4e949635a4e6f5b",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/c4e949635a4e6f5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206122897,
+        "stop" : 1585206203980,
+        "duration" : 81083
+      }
+    }, {
+      "uid" : "5eda37ef190fb3c8",
+      "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/5eda37ef190fb3c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120140775,
+        "stop" : 1585120150638,
+        "duration" : 9863
+      }
+    }, {
+      "uid" : "fe644f96ec44b973",
+      "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/fe644f96ec44b973",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119754629,
+        "stop" : 1585119812486,
+        "duration" : 57857
+      }
+    }, {
+      "uid" : "121349035428acfe",
+      "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/121349035428acfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065349578,
+        "stop" : 1585065357659,
+        "duration" : 8081
+      }
+    }, {
+      "uid" : "28d0be6474d3b4c1",
+      "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/28d0be6474d3b4c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585064806716,
+        "stop" : 1585064815447,
+        "duration" : 8731
+      }
+    } ]
+  },
+  "82bf4478b2f2fac2c326cee484bbb51" : {
+    "statistic" : {
+      "failed" : 11,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 11
+    },
+    "items" : [ {
+      "uid" : "11fd11c062dd3c1b",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/11fd11c062dd3c1b",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304670,
+        "stop" : 1585570304674,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "975f2337651fd256",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/975f2337651fd256",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304670,
+        "stop" : 1585570304674,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "9f3994b5c3c413d5",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/9f3994b5c3c413d5",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304670,
+        "stop" : 1585570304674,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "392d50e4c4964e9c",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/392d50e4c4964e9c",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804584,
+        "stop" : 1585568804590,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "8a80a89955ba74c4",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/8a80a89955ba74c4",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804584,
+        "stop" : 1585568804590,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "f83df7f10d36b976",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/f83df7f10d36b976",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319399,
+        "stop" : 1585568319405,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "d7e5504a55d3a9db",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/d7e5504a55d3a9db",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63393",
+      "time" : {
+        "start" : 1585553199270,
+        "stop" : 1585553199275,
+        "duration" : 5
+      }
+    }, {
+      "uid" : "2435e6d5f6b64d61",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/2435e6d5f6b64d61",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549795368,
+        "stop" : 1585549795431,
+        "duration" : 63
+      }
+    }, {
+      "uid" : "58e52a05e1523c38",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/58e52a05e1523c38",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:64239",
+      "time" : {
+        "start" : 1585472191023,
+        "stop" : 1585472191033,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "58ad4a05dde06c1",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/58ad4a05dde06c1",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317113,
+        "stop" : 1585465317117,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "921ba0914c194f94",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/921ba0914c194f94",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585378814615,
+        "stop" : 1585378827515,
+        "duration" : 12900
+      }
+    } ]
+  },
+  "20a6dc923043f267687481f23fa2223d" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 7,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "a8a3022336478117",
+      "reportUrl" : "http://localhost:9000/job/automationJS/24/allure/#testresult/a8a3022336478117",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304642,
+        "stop" : 1585570304648,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "794438407ae1291a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/23/allure/#testresult/794438407ae1291a",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304642,
+        "stop" : 1585570304648,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "3db0bcfa3734b6e3",
+      "reportUrl" : "http://localhost:9000/job/automationJS/22/allure/#testresult/3db0bcfa3734b6e3",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585570304642,
+        "stop" : 1585570304648,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "54080fd40757f289",
+      "reportUrl" : "http://localhost:9000/job/automationJS/21/allure/#testresult/54080fd40757f289",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585568946712,
+        "stop" : 1585568952599,
+        "duration" : 5887
+      }
+    }, {
+      "uid" : "8bf4365e61415245",
+      "reportUrl" : "http://localhost:9000/job/automationJS/20/allure/#testresult/8bf4365e61415245",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:60454",
+      "time" : {
+        "start" : 1585568804552,
+        "stop" : 1585568804560,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "ac55ebb7f2a33f97",
+      "reportUrl" : "http://localhost:9000/job/automationJS/18/allure/#testresult/ac55ebb7f2a33f97",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63767",
+      "time" : {
+        "start" : 1585568319369,
+        "stop" : 1585568319376,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "b1aa022bfffb76ac",
+      "reportUrl" : "http://localhost:9000/job/automationJS/17/allure/#testresult/b1aa022bfffb76ac",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:63393",
+      "time" : {
+        "start" : 1585553199241,
+        "stop" : 1585553199249,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "4cfeeb6a11d714b1",
+      "reportUrl" : "http://localhost:9000/job/automationJS/16/allure/#testresult/4cfeeb6a11d714b1",
+      "status" : "failed",
+      "statusDetails" : "Failed: no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585549794862,
+        "stop" : 1585549794870,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "74f5775336722b57",
+      "reportUrl" : "http://localhost:9000/job/automationJS/15/allure/#testresult/74f5775336722b57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585472047410,
+        "stop" : 1585472056452,
+        "duration" : 9042
+      }
+    }, {
+      "uid" : "85efeb6683f26a8a",
+      "reportUrl" : "http://localhost:9000/job/automationJS/14/allure/#testresult/85efeb6683f26a8a",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458",
+      "time" : {
+        "start" : 1585465317085,
+        "stop" : 1585465317092,
+        "duration" : 7
+      }
+    }, {
+      "uid" : "ca7a50daeb017866",
+      "reportUrl" : "http://localhost:9000/job/automationJS/11/allure/#testresult/ca7a50daeb017866",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292539874,
+        "stop" : 1585292544870,
+        "duration" : 4996
+      }
+    }, {
+      "uid" : "c875dc1ffc9ec43d",
+      "reportUrl" : "http://localhost:9000/job/automationJS/10/allure/#testresult/c875dc1ffc9ec43d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585292539874,
+        "stop" : 1585292544870,
+        "duration" : 4996
+      }
+    }, {
+      "uid" : "72eb81459aa86fd0",
+      "reportUrl" : "http://localhost:9000/job/automationJS/9/allure/#testresult/72eb81459aa86fd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206381598,
+        "stop" : 1585206387925,
+        "duration" : 6327
+      }
+    }, {
       "uid" : "e298f4f5826b6061",
       "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/e298f4f5826b6061",
       "status" : "passed",

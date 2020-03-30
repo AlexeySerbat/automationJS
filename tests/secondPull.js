@@ -52,7 +52,7 @@ describe('Second Pull', () => {
         await windowsHandles.changeToFirstWindow();
     });
     it('Play Music', async () => {
-        // await yandexPageMethods.loginIntoYandexMusic();
+        //await yandexPageMethods.loginIntoYandex();
         await yandexPageMethods.goToYandexMusic();
         await yandexMusicMethods.search('beyo');
         await yandexMusicMethods.chooseFirstEl('Beyoncé');
