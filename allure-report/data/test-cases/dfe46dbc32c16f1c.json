@@ -1,0 +1,44 @@
+{
+  "uid" : "dfe46dbc32c16f1c",
+  "name" : "Incorrect login",
+  "fullName" : "First tests pull.Incorrect login",
+  "historyId" : "13fa5946d3254fb99d5d1caec446079c",
+  "time" : {
+    "start" : 1585120156349,
+    "stop" : 1585120162098,
+    "duration" : 5749
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Incorrect login"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfe46dbc32c16f1c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a67f2eb22b1e28",
+  "name" : "Navigation",
+  "fullName" : "First tests pull.Navigation",
+  "historyId" : "cfe77f3f64aaf7c4b4b4f4efd2453a02",
+  "time" : {
+    "start" : 1585065370611,
+    "stop" : 1585065385791,
+    "duration" : 15180
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Navigation"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1a67f2eb22b1e28.json",
+  "parameterValues" : [ ]
+}

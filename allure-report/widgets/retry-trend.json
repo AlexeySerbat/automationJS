@@ -1,0 +1,41 @@
+[ {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:9000/job/automationJS/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 6,
+    "retry" : 42
+  }
+}, {
+  "buildOrder" : 8,
+  "reportUrl" : "http://localhost:9000/job/automationJS/8/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 6,
+    "retry" : 36
+  }
+}, {
+  "buildOrder" : 7,
+  "reportUrl" : "http://localhost:9000/job/automationJS/7/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 6,
+    "retry" : 24
+  }
+}, {
+  "buildOrder" : 6,
+  "reportUrl" : "http://localhost:9000/job/automationJS/6/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 6,
+    "retry" : 18
+  }
+}, {
+  "buildOrder" : 5,
+  "reportUrl" : "http://localhost:9000/job/automationJS/5/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 6,
+    "retry" : 6
+  }
+} ]

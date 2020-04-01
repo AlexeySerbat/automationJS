@@ -1,0 +1,44 @@
+{
+  "uid" : "71d439974b8c0c7",
+  "name" : "Login in Yandex.Mail",
+  "fullName" : "First tests pull.Login in Yandex.Mail",
+  "historyId" : "3bd03c8144ae39d16f490edcb94eadc3",
+  "time" : {
+    "start" : 1585063587972,
+    "stop" : 1585063602382,
+    "duration" : 14410
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login in Yandex.Mail"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71d439974b8c0c7.json",
+  "parameterValues" : [ ]
+}

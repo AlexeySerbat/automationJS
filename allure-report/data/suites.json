@@ -1,0 +1,87 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "First tests pull",
+    "children" : [ {
+      "name" : "Login in Yandex.Mail",
+      "uid" : "c121b71946b3b3a0",
+      "parentUid" : "12817e79cf907c5628836e7053100a61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206015832,
+        "stop" : 1585206122897,
+        "duration" : 107065
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Log out Yandex.Mail",
+      "uid" : "c4e949635a4e6f5b",
+      "parentUid" : "12817e79cf907c5628836e7053100a61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206122897,
+        "stop" : 1585206203980,
+        "duration" : 81083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Incorrect password",
+      "uid" : "44f20620f666b00c",
+      "parentUid" : "12817e79cf907c5628836e7053100a61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206203980,
+        "stop" : 1585206255208,
+        "duration" : 51228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Incorrect login",
+      "uid" : "82039f5f9f498095",
+      "parentUid" : "12817e79cf907c5628836e7053100a61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206255208,
+        "stop" : 1585206314749,
+        "duration" : 59541
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Navigation",
+      "uid" : "582d37b3a5fc6b5e",
+      "parentUid" : "12817e79cf907c5628836e7053100a61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206314749,
+        "stop" : 1585206381598,
+        "duration" : 66849
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Change language",
+      "uid" : "72eb81459aa86fd0",
+      "parentUid" : "12817e79cf907c5628836e7053100a61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585206381598,
+        "stop" : 1585206387925,
+        "duration" : 6327
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "12817e79cf907c5628836e7053100a61"
+  } ]
+}

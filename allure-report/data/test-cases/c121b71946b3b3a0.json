@@ -1,0 +1,149 @@
+{
+  "uid" : "c121b71946b3b3a0",
+  "name" : "Login in Yandex.Mail",
+  "fullName" : "First tests pull.Login in Yandex.Mail",
+  "historyId" : "3bd03c8144ae39d16f490edcb94eadc3",
+  "time" : {
+    "start" : 1585206015832,
+    "stop" : 1585206122897,
+    "duration" : 107065
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login in Yandex.Mail"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "85ab258587a759fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120058871,
+        "stop" : 1585120140775,
+        "duration" : 81904
+      }
+    }, {
+      "uid" : "8283c1e6f1005292",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119930139,
+        "stop" : 1585119950967,
+        "duration" : 20828
+      }
+    }, {
+      "uid" : "d18e4c51a165cae7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119664407,
+        "stop" : 1585119754629,
+        "duration" : 90222
+      }
+    }, {
+      "uid" : "1da0f740b0e8569c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065324488,
+        "stop" : 1585065349578,
+        "duration" : 25090
+      }
+    }, {
+      "uid" : "4f184c610946e49c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065249020,
+        "stop" : 1585065262723,
+        "duration" : 13703
+      }
+    }, {
+      "uid" : "d1edace404224528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585064761616,
+        "stop" : 1585064806716,
+        "duration" : 45100
+      }
+    }, {
+      "uid" : "71d439974b8c0c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585063587972,
+        "stop" : 1585063602382,
+        "duration" : 14410
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "fef0bb74db4f8447",
+        "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/fef0bb74db4f8447",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585120058871,
+          "stop" : 1585120140775,
+          "duration" : 81904
+        }
+      }, {
+        "uid" : "30e90d6abb257f3a",
+        "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/30e90d6abb257f3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585119664407,
+          "stop" : 1585119754629,
+          "duration" : 90222
+        }
+      }, {
+        "uid" : "55725524419e18a7",
+        "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/55725524419e18a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585065324488,
+          "stop" : 1585065349578,
+          "duration" : 25090
+        }
+      }, {
+        "uid" : "de52663ca9af1b5a",
+        "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/de52663ca9af1b5a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585064761616,
+          "stop" : 1585064806716,
+          "duration" : 45100
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c121b71946b3b3a0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 26 10:04:15 MSK 2020","Thu Mar 26 10:05:14 MSK 2020","59541","","First tests pull","","First tests pull","Incorrect login","Incorrect login",""
+"passed","Thu Mar 26 10:03:23 MSK 2020","Thu Mar 26 10:04:15 MSK 2020","51228","","First tests pull","","First tests pull","Incorrect password","Incorrect password",""
+"passed","Thu Mar 26 10:05:14 MSK 2020","Thu Mar 26 10:06:21 MSK 2020","66849","","First tests pull","","First tests pull","Navigation","Navigation",""
+"passed","Thu Mar 26 10:06:21 MSK 2020","Thu Mar 26 10:06:27 MSK 2020","6327","","First tests pull","","First tests pull","Change language","Change language",""
+"passed","Thu Mar 26 10:02:02 MSK 2020","Thu Mar 26 10:03:23 MSK 2020","81083","","First tests pull","","First tests pull","Log out Yandex.Mail","Log out Yandex.Mail",""
+"passed","Thu Mar 26 10:00:15 MSK 2020","Thu Mar 26 10:02:02 MSK 2020","107065","","First tests pull","","First tests pull","Login in Yandex.Mail","Login in Yandex.Mail",""

@@ -1,0 +1,153 @@
+{
+  "uid" : "72eb81459aa86fd0",
+  "name" : "Change language",
+  "fullName" : "First tests pull.Change language",
+  "historyId" : "20a6dc923043f267687481f23fa2223d",
+  "time" : {
+    "start" : 1585206381598,
+    "stop" : 1585206387925,
+    "duration" : 6327
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Change language"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ccdc2644b6f381b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120176341,
+        "stop" : 1585120181311,
+        "duration" : 4970
+      }
+    }, {
+      "uid" : "afe1219f3032822d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119987704,
+        "stop" : 1585119993526,
+        "duration" : 5822
+      }
+    }, {
+      "uid" : "38eae08dab432515",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:59399",
+      "time" : {
+        "start" : 1585119885574,
+        "stop" : 1585119885580,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "1a32893ca3377caf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065385791,
+        "stop" : 1585065391124,
+        "duration" : 5333
+      }
+    }, {
+      "uid" : "7e6670e4be698450",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065301689,
+        "stop" : 1585065307694,
+        "duration" : 6005
+      }
+    }, {
+      "uid" : "cf532b29eca75fd2",
+      "status" : "failed",
+      "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:51781",
+      "time" : {
+        "start" : 1585064896239,
+        "stop" : 1585064896245,
+        "duration" : 6
+      }
+    }, {
+      "uid" : "c89e02530b20c5b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585063636299,
+        "stop" : 1585063641309,
+        "duration" : 5010
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "e298f4f5826b6061",
+        "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/e298f4f5826b6061",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585120176341,
+          "stop" : 1585120181311,
+          "duration" : 4970
+        }
+      }, {
+        "uid" : "49580d3fb81420bd",
+        "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/49580d3fb81420bd",
+        "status" : "failed",
+        "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:59399",
+        "time" : {
+          "start" : 1585119885574,
+          "stop" : 1585119885580,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "c8dfee4c5b1e38e",
+        "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/c8dfee4c5b1e38e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585065385791,
+          "stop" : 1585065391124,
+          "duration" : 5333
+        }
+      }, {
+        "uid" : "e7b50d1aa5606c28",
+        "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/e7b50d1aa5606c28",
+        "status" : "failed",
+        "statusDetails" : "Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:51781",
+        "time" : {
+          "start" : 1585064896239,
+          "stop" : 1585064896245,
+          "duration" : 6
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "72eb81459aa86fd0.json",
+  "parameterValues" : [ ]
+}

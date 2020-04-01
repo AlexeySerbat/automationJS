@@ -1,0 +1,153 @@
+{
+  "uid" : "82039f5f9f498095",
+  "name" : "Incorrect login",
+  "fullName" : "First tests pull.Incorrect login",
+  "historyId" : "13fa5946d3254fb99d5d1caec446079c",
+  "time" : {
+    "start" : 1585206255208,
+    "stop" : 1585206314749,
+    "duration" : 59541
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Incorrect login"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dfe46dbc32c16f1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120156349,
+        "stop" : 1585120162098,
+        "duration" : 5749
+      }
+    }, {
+      "uid" : "e0aa2fea00bbee90",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119966873,
+        "stop" : 1585119973547,
+        "duration" : 6674
+      }
+    }, {
+      "uid" : "813fa7ecb5b7d60f",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585119817098,
+        "stop" : 1585119822029,
+        "duration" : 4931
+      }
+    }, {
+      "uid" : "cd521bc95e00cc8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065364804,
+        "stop" : 1585065370610,
+        "duration" : 5806
+      }
+    }, {
+      "uid" : "6dd84ccf61933d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065279787,
+        "stop" : 1585065286075,
+        "duration" : 6288
+      }
+    }, {
+      "uid" : "69d894687a098f9c",
+      "status" : "failed",
+      "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+      "time" : {
+        "start" : 1585064820116,
+        "stop" : 1585064825276,
+        "duration" : 5160
+      }
+    }, {
+      "uid" : "6dec564f574ccef0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585063616632,
+        "stop" : 1585063623081,
+        "duration" : 6449
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "8859d66d995c5650",
+        "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/8859d66d995c5650",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585120156349,
+          "stop" : 1585120162098,
+          "duration" : 5749
+        }
+      }, {
+        "uid" : "7f3c6cd29d7f68b9",
+        "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/7f3c6cd29d7f68b9",
+        "status" : "failed",
+        "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+        "time" : {
+          "start" : 1585119817098,
+          "stop" : 1585119822029,
+          "duration" : 4931
+        }
+      }, {
+        "uid" : "8e026f2f7c099ef0",
+        "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/8e026f2f7c099ef0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585065364804,
+          "stop" : 1585065370610,
+          "duration" : 5806
+        }
+      }, {
+        "uid" : "5d01dc15416b086",
+        "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/5d01dc15416b086",
+        "status" : "failed",
+        "statusDetails" : "Failed: element not interactable\n                  (Session info: chrome=80.0.3987.149)\n                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)",
+        "time" : {
+          "start" : 1585064820116,
+          "stop" : 1585064825276,
+          "duration" : 5160
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "82039f5f9f498095.json",
+  "parameterValues" : [ ]
+}

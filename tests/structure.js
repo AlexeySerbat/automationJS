@@ -17,8 +17,3 @@ describe('Project structure case', () => {
         await expect(londonEls).toEqual(parisEls);
     });
 });
-
-
-
-
-

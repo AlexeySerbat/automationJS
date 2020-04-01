@@ -1,0 +1,149 @@
+{
+  "uid" : "44f20620f666b00c",
+  "name" : "Incorrect password",
+  "fullName" : "First tests pull.Incorrect password",
+  "historyId" : "9d93fddcd7c7e0c6531c1edf7364360f",
+  "time" : {
+    "start" : 1585206203980,
+    "stop" : 1585206255208,
+    "duration" : 51228
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testClass",
+    "value" : "First tests pull"
+  }, {
+    "name" : "testMethod",
+    "value" : "Incorrect password"
+  }, {
+    "name" : "package",
+    "value" : "First tests pull"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95a40a0a89e86423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585120150638,
+        "stop" : 1585120156349,
+        "duration" : 5711
+      }
+    }, {
+      "uid" : "34e76551edfc6c28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119960923,
+        "stop" : 1585119966873,
+        "duration" : 5950
+      }
+    }, {
+      "uid" : "b61d9f518370581a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585119812486,
+        "stop" : 1585119817098,
+        "duration" : 4612
+      }
+    }, {
+      "uid" : "a2d6dbc89b2051f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065357659,
+        "stop" : 1585065364804,
+        "duration" : 7145
+      }
+    }, {
+      "uid" : "abb6a16f803cf5f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585065274096,
+        "stop" : 1585065279787,
+        "duration" : 5691
+      }
+    }, {
+      "uid" : "58f0b625f1922278",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585064815447,
+        "stop" : 1585064820116,
+        "duration" : 4669
+      }
+    }, {
+      "uid" : "49120eae733e585c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585063611570,
+        "stop" : 1585063616632,
+        "duration" : 5062
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "ad11ff5397a4e7f2",
+        "reportUrl" : "http://localhost:9000/job/automationJS/8/allure/#testresult/ad11ff5397a4e7f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585120150638,
+          "stop" : 1585120156349,
+          "duration" : 5711
+        }
+      }, {
+        "uid" : "1a815e4d2ef6e42",
+        "reportUrl" : "http://localhost:9000/job/automationJS/7/allure/#testresult/1a815e4d2ef6e42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585119812486,
+          "stop" : 1585119817098,
+          "duration" : 4612
+        }
+      }, {
+        "uid" : "c16d0db31e8fb19e",
+        "reportUrl" : "http://localhost:9000/job/automationJS/6/allure/#testresult/c16d0db31e8fb19e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585065357659,
+          "stop" : 1585065364804,
+          "duration" : 7145
+        }
+      }, {
+        "uid" : "6334d82b6578a3a7",
+        "reportUrl" : "http://localhost:9000/job/automationJS/5/allure/#testresult/6334d82b6578a3a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585064815447,
+          "stop" : 1585064820116,
+          "duration" : 4669
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "44f20620f666b00c.json",
+  "parameterValues" : [ ]
+}
