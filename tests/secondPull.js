@@ -2,7 +2,6 @@ describe('Second Pull', () => {
     const yandexPageMethods = require('../methods/YandexPageMethods');
     const yandexMarketMethods = require('../methods/yandexMarketMethods');
     const yandexMusicMethods = require('../methods/YandexMusicMethods');
-    const loginPageMethods = require('../methods/LoginPageMethods');
     const windowsHandles = require('../controls/windowHandles');
     const clearData = require('../controls/clearData');
     beforeEach(async () => {
@@ -52,7 +51,6 @@ describe('Second Pull', () => {
         await windowsHandles.changeToFirstWindow();
     });
     it('Play Music', async () => {
-        // await yandexPageMethods.loginIntoYandexMusic();
         await yandexPageMethods.goToYandexMusic();
         await yandexMusicMethods.search('beyo');
         await yandexMusicMethods.chooseFirstEl('Beyoncé');
