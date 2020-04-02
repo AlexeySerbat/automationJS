@@ -1,4 +1,95 @@
 [ {
+  "buildOrder" : 24,
+  "reportUrl" : "http://localhost:9000/job/automationJS/24/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 11142
+  }
+}, {
+  "buildOrder" : 23,
+  "reportUrl" : "http://localhost:9000/job/automationJS/23/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 11142
+  }
+}, {
+  "buildOrder" : 22,
+  "reportUrl" : "http://localhost:9000/job/automationJS/22/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 11142
+  }
+}, {
+  "buildOrder" : 21,
+  "reportUrl" : "http://localhost:9000/job/automationJS/21/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 148031
+  }
+}, {
+  "buildOrder" : 20,
+  "reportUrl" : "http://localhost:9000/job/automationJS/20/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 126425
+  }
+}, {
+  "buildOrder" : 18,
+  "reportUrl" : "http://localhost:9000/job/automationJS/18/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 111931
+  }
+}, {
+  "buildOrder" : 17,
+  "reportUrl" : "http://localhost:9000/job/automationJS/17/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 91436
+  }
+}, {
+  "buildOrder" : 16,
+  "reportUrl" : "http://localhost:9000/job/automationJS/16/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 28035
+  }
+}, {
+  "buildOrder" : 15,
+  "reportUrl" : "http://localhost:9000/job/automationJS/15/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 212965
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "http://localhost:9000/job/automationJS/14/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 111630
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://localhost:9000/job/automationJS/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 86405226
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:9000/job/automationJS/10/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 122581
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:9000/job/automationJS/9/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 372093
+  }
+}, {
   "buildOrder" : 8,
   "reportUrl" : "http://localhost:9000/job/automationJS/8/allure",
   "reportName" : "AllureReport",

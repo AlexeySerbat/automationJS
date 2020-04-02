@@ -1,4 +1,91 @@
 [ {
+  "buildOrder" : 24,
+  "reportUrl" : "http://localhost:9000/job/automationJS/24/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 12
+  }
+}, {
+  "buildOrder" : 23,
+  "reportUrl" : "http://localhost:9000/job/automationJS/23/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 12
+  }
+}, {
+  "buildOrder" : 22,
+  "reportUrl" : "http://localhost:9000/job/automationJS/22/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 12
+  }
+}, {
+  "buildOrder" : 21,
+  "reportUrl" : "http://localhost:9000/job/automationJS/21/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 6
+  }
+}, {
+  "buildOrder" : 20,
+  "reportUrl" : "http://localhost:9000/job/automationJS/20/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 9
+  }
+}, {
+  "buildOrder" : 18,
+  "reportUrl" : "http://localhost:9000/job/automationJS/18/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 12
+  }
+}, {
+  "buildOrder" : 17,
+  "reportUrl" : "http://localhost:9000/job/automationJS/17/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 9
+  }
+}, {
+  "buildOrder" : 16,
+  "reportUrl" : "http://localhost:9000/job/automationJS/16/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 9
+  }
+}, {
+  "buildOrder" : 15,
+  "reportUrl" : "http://localhost:9000/job/automationJS/15/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 6
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "http://localhost:9000/job/automationJS/14/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 12
+  }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://localhost:9000/job/automationJS/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "buildOrder" : 10,
+  "reportUrl" : "http://localhost:9000/job/automationJS/10/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "http://localhost:9000/job/automationJS/9/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
   "buildOrder" : 8,
   "reportUrl" : "http://localhost:9000/job/automationJS/8/allure",
   "reportName" : "AllureReport",
