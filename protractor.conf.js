@@ -4,14 +4,16 @@ exports.config = {
     directConnect: true,
     SELENIUM_PROMISE_MANAGER: false,
     seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['./tests/firstPull.js', './tests/secondPull.js'],
+    specs: ['./tests/firstPull.js',
+        './tests/secondPull.js'],
     capabilities: {
         browserName: 'chrome',
         chromeOptions: {
-             excludeSwitches: ['enable-automation'],
-             args: ["--headless",
-                 "--disable-gpu",
-                 "--window-size=800x600",
+            excludeSwitches: ['enable-automation'],
+            useAutomationExtension: false,
+            args: [//"--headless",
+                "--incognito",
+                "--disable-gpu",
                  "disable-infobars"],
         }
     },

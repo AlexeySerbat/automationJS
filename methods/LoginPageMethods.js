@@ -18,7 +18,7 @@ function LoginPageMethods () {
     this.enterIncorrectLoginAndCLickEnter = async function(login) {
         await browser.wait(EC.presenceOf(loginPageElements.anotherAccount));
         await loginPageElements.anotherAccount.click();
-        await browser.wait(EC.presenceOf(loginPageElements.loginField));
+        await browser.wait(EC.visibilityOf(loginPageElements.loginField));
         await loginPageElements.loginField.sendKeys(login);
         await loginPageElements.submitLogin.click();
         await browser.wait(EC.presenceOf(loginPageElements.errorMessage));
