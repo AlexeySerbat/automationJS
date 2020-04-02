@@ -16,7 +16,7 @@ function yandexMarketMethods() {
         await expect(yandexMarketElements.textOfFirstElement.getText()).toContain(searchText)
     };
     this.addTwoElementToComparison = async function () {
-        await browser.wait(EC.presenceOf(yandexMarketElements.addFirstElement || yandexMarketElements.addFirstElAlter));
+        await browser.wait(EC.presenceOf(yandexMarketElements.searchInput));
         await yandexMarketElements.addFirstElement.isPresent().then(async function (isPresent) {
             if(isPresent === true) {
                 await yandexMarketElements.addFirstElement.click();
@@ -32,6 +32,7 @@ function yandexMarketMethods() {
         });
     };
     this.goToCompareAndCheck = async function () {
+        await browser.wait(waiter.waitForClass(yandexMarketElements.compareElement, 'header2-menu__count personal-counter personal-counter_provider_comparison i-bem personal-counter_js_inited personal-counter_empty_no header2-menu__count_draw_yes'),5000);
         await yandexMarketElements.compareButton.click();
         await browser.wait(EC.presenceOf(yandexMarketElements.comparisonField));
         await expect(yandexMarketElements.firstComparedElement.getText()).toContain('Note 8');

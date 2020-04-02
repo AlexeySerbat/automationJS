@@ -6,7 +6,6 @@ describe('First tests pull', () => {
     const mailPageElements = require('../pages/mailPageElements');
     const languagePageMethods = require('../methods/LanguagePageMethods');
     const windowsHandles = require('../controls/windowHandles');
-    const removeAttribute = require('../controls/removeAttribute');
     const clearData = require('../controls/clearData');
     beforeEach(async () => {
         await browser.waitForAngularEnabled(false);

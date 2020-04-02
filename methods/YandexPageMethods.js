@@ -70,14 +70,15 @@ function yandexPageMethods() {
         await browser.wait(EC.presenceOf(yandexMarketElements.searchInput));
     };
     this.goToYandexMusic = async function () {
-        await yandexPageElements.yandexMusic.click();
+        await browser.wait(EC.presenceOf(yandexPageElements.yandexMusic));
+        await yandexPageElements.yandexMusic.click()
         await windowsHandles.changeToSecondWindow();
         await browser.wait(EC.presenceOf(yandexMusicElements.searchInput));
     };
     this.loginIntoYandex = async function () {
         await yandexPageElements.loginButton.click();
         await windowsHandles.changeToSecondWindow();
-        await browser.wait(EC.presenceOf(loginPageElements.loginField || loginPageElements.passwordField));
+        await browser.wait(EC.presenceOf(loginPageElements.submitLogin));
         await loginPageElements.passwordField.isPresent().then(async (isPresent) => {
             if (isPresent === true){
                 await loginPageMethods.enterPasswordAndClickEnter('AutotestUser123');
