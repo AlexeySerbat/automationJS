@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585315504174' stop='1585315522018'>
+    <name>Second Pull</name>
+    <title>Second Pull</title>
+    <test-cases>
+        <test-case start='1585315504174' status='pending' stop='1585315504177'>
+            <name>Add to Comparison</name>
+            <title>Add to Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585315504178' status='failed' stop='1585315522015'>
+            <name>Remove from Comparison</name>
+            <title>Remove from Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected true to be false.</message>
+                <stack-trace>Error: Failed expectation
+                    at yandexMarketMethods.expectElementsRemoved (C:\Users\Alexey\automationJS\methods\yandexMarketMethods.js:35:122)
+                    at UserContext.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\secondPull.js:31:35)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

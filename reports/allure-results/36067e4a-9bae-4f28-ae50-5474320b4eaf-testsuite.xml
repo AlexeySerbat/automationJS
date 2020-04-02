@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585412069903' stop='1585412086568'>
+    <name>Second Pull</name>
+    <title>Second Pull</title>
+    <test-cases>
+        <test-case start='1585412069904' status='pending' stop='1585412069906'>
+            <name>Add to Comparison</name>
+            <title>Add to Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585412069906' status='pending' stop='1585412069907'>
+            <name>Remove from Comparison</name>
+            <title>Remove from Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585412069907' status='pending' stop='1585412069907'>
+            <name>Sort in Market</name>
+            <title>Sort in Market</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585412069907' status='pending' stop='1585412069908'>
+            <name>Sort by tag</name>
+            <title>Sort by tag</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Temporarily disabled with xit</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585412069908' status='failed' stop='1585412086567'>
+            <name>Yandex Music</name>
+            <title>Yandex Music</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: Cannot read property 'indexOf' of null</message>
+                <stack-trace>TypeError: Cannot read property 'indexOf' of null
+                    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\expectedConditions.js:233:35
+                    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\element.js:804:32
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\secondPull.js:44:5)
+                    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\secondPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

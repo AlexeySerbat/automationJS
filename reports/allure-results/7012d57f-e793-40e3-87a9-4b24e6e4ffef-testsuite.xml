@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585555879117' stop='1585555951576'>
+    <name>Second Pull</name>
+    <title>Second Pull</title>
+    <test-cases>
+        <test-case start='1585555879118' status='passed' stop='1585555895889'>
+            <name>Add to Comparison</name>
+            <title>Add to Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585555895890' status='passed' stop='1585555906772'>
+            <name>Remove from Comparison</name>
+            <title>Remove from Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585555906772' status='passed' stop='1585555915025'>
+            <name>Sort in Market</name>
+            <title>Sort in Market</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585555915025' status='passed' stop='1585555923008'>
+            <name>Sort by tag</name>
+            <title>Sort by tag</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585555923008' status='passed' stop='1585555935547'>
+            <name>Yandex Music</name>
+            <title>Yandex Music</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585555935548' status='passed' stop='1585555951575'>
+            <name>Play Music</name>
+            <title>Play Music</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

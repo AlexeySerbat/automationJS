@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585571327100' stop='1585571414629'>
+    <name>First tests pull</name>
+    <title>First tests pull</title>
+    <test-cases>
+        <test-case start='1585571327100' status='passed' stop='1585571350588'>
+            <name>Login in Yandex.Mail</name>
+            <title>Login in Yandex.Mail</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585571350588' status='passed' stop='1585571363149'>
+            <name>Log out Yandex.Mail</name>
+            <title>Log out Yandex.Mail</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585571363149' status='passed' stop='1585571370377'>
+            <name>Incorrect password</name>
+            <title>Incorrect password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585571370377' status='passed' stop='1585571377836'>
+            <name>Incorrect login</name>
+            <title>Incorrect login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585571377836' status='passed' stop='1585571401007'>
+            <name>Navigation</name>
+            <title>Navigation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585571401007' status='passed' stop='1585571414628'>
+            <name>Change language</name>
+            <title>Change language</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

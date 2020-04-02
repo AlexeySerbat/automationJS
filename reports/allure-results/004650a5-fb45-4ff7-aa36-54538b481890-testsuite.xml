@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585299137767' stop='1585299150760'>
+    <name>Second Pull</name>
+    <title>Second Pull</title>
+    <test-cases>
+        <test-case start='1585299137767' status='failed' stop='1585299150759'>
+            <name>Add to Comparison</name>
+            <title>Add to Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected 'Note' to contain 'Note 8'.</message>
+                <stack-trace>Error: Failed expectation
+                    at yandexMarketMethods.search (C:\Users\Alexey\automationJS\methods\yandexMarketMethods.js:8:67)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at UserContext.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\secondPull.js:19:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

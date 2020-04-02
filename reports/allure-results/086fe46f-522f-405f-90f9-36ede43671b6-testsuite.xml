@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585474198250' stop='1585474262236'>
+    <name>Second Pull</name>
+    <title>Second Pull</title>
+    <test-cases>
+        <test-case start='1585474198250' status='passed' stop='1585474212780'>
+            <name>Add to Comparison</name>
+            <title>Add to Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585474212780' status='passed' stop='1585474223063'>
+            <name>Remove from Comparison</name>
+            <title>Remove from Comparison</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585474223063' status='passed' stop='1585474234714'>
+            <name>Sort in Market</name>
+            <title>Sort in Market</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585474234714' status='passed' stop='1585474244316'>
+            <name>Sort by tag</name>
+            <title>Sort by tag</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585474244317' status='passed' stop='1585474256606'>
+            <name>Yandex Music</name>
+            <title>Yandex Music</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1585474256606' status='failed' stop='1585474262235'>
+            <name>Play Music</name>
+            <title>Play Music</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: No element found using locator: By(css selector, div.home-arrow__tabs > div > a:nth-child(7))</message>
+                <stack-trace>NoSuchElementError: No element found using locator: By(css selector, div.home-arrow__tabs > div > a:nth-child(7))
+                    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as click] (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as click] (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at yandexPageMethods.goToYandexMusic (C:\Users\Alexey\automationJS\methods\YandexPageMethods.js:73:46)
+                    at UserContext.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\secondPull.js:56:33)
+                    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new Promise (&lt;anonymous>)
+                    at SimpleScheduler.promise (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2242:12)
+                    at schedulerExecute (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2232:22
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\secondPull.js:54:5)
+                    at addSpecsToSuite (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\secondPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,194 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1585465205496' stop='1585465317093'>
+    <name>First tests pull</name>
+    <title>First tests pull</title>
+    <test-cases>
+        <test-case start='1585465205497' status='failed' stop='1585465215100'>
+            <name>Login in Yandex.Mail</name>
+            <title>Login in Yandex.Mail</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: element not interactable
+                  (Session info: chrome=80.0.3987.149)
+                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)</message>
+                <stack-trace>WebDriverError: element not interactable
+                  (Session info: chrome=80.0.3987.149)
+                  (Driver info: chromedriver=80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}),platform=Windows NT 10.0.17763 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\Alexey\automationJS\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as sendKeys] (C:\Users\Alexey\automationJS\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as sendKeys] (C:\Users\Alexey\automationJS\node_modules\protractor\built\element.js:831:22)
+                    at LoginPageMethods.enterPasswordAndClickEnter (C:\Users\Alexey\automationJS\methods\LoginPageMethods.js:14:47)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at UserContext.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:23:9)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:19:5)
+                    at addSpecsToSuite (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585465215100' status='failed' stop='1585465317064'>
+            <name>Log out Yandex.Mail</name>
+            <title>Log out Yandex.Mail</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458</message>
+                <stack-trace>Error: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458
+                    at ClientRequest.&lt;anonymous> (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\selenium-webdriver\http\index.js:238:15)
+                    at ClientRequest.emit (events.js:210:5)
+                    at Socket.socketErrorListener (_http_client.js:406:9)
+                    at Socket.emit (events.js:210:5)
+                    at emitErrorNT (internal/streams/destroy.js:91:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+                    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:28:5)
+                    at addSpecsToSuite (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585465317064' status='failed' stop='1585465317071'>
+            <name>Incorrect password</name>
+            <title>Incorrect password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458</message>
+                <stack-trace>Error: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458
+                    at ClientRequest.&lt;anonymous> (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\selenium-webdriver\http\index.js:238:15)
+                    at ClientRequest.emit (events.js:210:5)
+                    at Socket.socketErrorListener (_http_client.js:406:9)
+                    at Socket.emit (events.js:210:5)
+                    at emitErrorNT (internal/streams/destroy.js:91:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+                    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:11:5)
+                    at addSpecsToSuite (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585465317071' status='failed' stop='1585465317078'>
+            <name>Incorrect login</name>
+            <title>Incorrect login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458</message>
+                <stack-trace>Error: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458
+                    at ClientRequest.&lt;anonymous> (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\selenium-webdriver\http\index.js:238:15)
+                    at ClientRequest.emit (events.js:210:5)
+                    at Socket.socketErrorListener (_http_client.js:406:9)
+                    at Socket.emit (events.js:210:5)
+                    at emitErrorNT (internal/streams/destroy.js:91:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+                    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:11:5)
+                    at addSpecsToSuite (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585465317078' status='failed' stop='1585465317085'>
+            <name>Navigation</name>
+            <title>Navigation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458</message>
+                <stack-trace>Error: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458
+                    at ClientRequest.&lt;anonymous> (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\selenium-webdriver\http\index.js:238:15)
+                    at ClientRequest.emit (events.js:210:5)
+                    at Socket.socketErrorListener (_http_client.js:406:9)
+                    at Socket.emit (events.js:210:5)
+                    at emitErrorNT (internal/streams/destroy.js:91:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+                    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:11:5)
+                    at addSpecsToSuite (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1585465317085' status='failed' stop='1585465317092'>
+            <name>Change language</name>
+            <title>Change language</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458</message>
+                <stack-trace>Error: EADDRINUSE connect EADDRINUSE 127.0.0.1:62458
+                    at ClientRequest.&lt;anonymous> (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\selenium-webdriver\http\index.js:238:15)
+                    at ClientRequest.emit (events.js:210:5)
+                    at Socket.socketErrorListener (_http_client.js:406:9)
+                    at Socket.emit (events.js:210:5)
+                    at emitErrorNT (internal/streams/destroy.js:91:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:59:3)
+                    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:11:5)
+                    at addSpecsToSuite (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\Alexey\automationJS\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\Alexey\automationJS\tests\firstPull.js:1:1)
+                    at Module._compile (internal/modules/cjs/loader.js:945:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+                    at Module.load (internal/modules/cjs/loader.js:798:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:711:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
