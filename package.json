@@ -34,7 +34,7 @@
     "jasmine-allure-reporter": "^1.0.2",
     "jasmine-data-provider": "^2.2.0",
     "jasmine-expect": "^4.0.3",
-    "mocha": "^7.1.1",
+    "mocha": "^10.2.0",
     "protractor-helpers": "^1.1.805",
     "protractor-jasmine2-html-reporter": "0.0.7"
   },
